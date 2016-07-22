@@ -46,6 +46,14 @@ nav ul {
     font-size: 18px;
     color: $nav-link-color;
   }
+
+  a {
+    transition: color .25s ease-in-out;
+  }
+
+  a:hover {
+    color: $highlight-color-2;
+  }
 }
 
 .project-list > li {
