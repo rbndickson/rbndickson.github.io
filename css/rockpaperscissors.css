@@ -1,0 +1,242 @@
+/*  resets  */
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/*  end resets  */
+
+body {
+  font: normal 4vh 'Fredoka One', 'Helvetica', Arial, Sans-serif;
+}
+
+.full-page-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.alert-box {
+  width: 100%;
+  height: 15vh;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.keyboard-instructions {
+  display: none;
+}
+
+.character-choices {
+  margin: auto;
+  text-align: center;
+}
+
+.character-choice {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+main {
+  display: none;
+}
+
+header {
+  height: 20vh;
+}
+
+header div {
+  float: left;
+  width: 50%;
+  font-size: 11vh;
+}
+
+header ul li {
+  display: inline-block;
+  height: 20vh;
+  vertical-align: middle;
+}
+
+header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.wins {
+  width: 35%;
+  text-align: center;
+}
+
+.character {
+  width: 65%;
+}
+
+.dog {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f436.svg");
+}
+
+.tiger {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f42f.svg");
+}
+
+.chick {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f425.svg");
+}
+
+.tako {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f419.svg");
+}
+
+.moon {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f31d.svg");
+}
+
+.santa {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f385.svg");
+}
+
+.alien {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f47d.svg");
+}
+
+.poop {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f4a9.svg");
+}
+
+.smiley {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f600.svg");
+}
+
+.purple-demon {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f608.svg");
+}
+
+.hands {
+  height: 40vh;
+}
+
+.hands::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.hand-container {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+/*  for the hands the width becomes height  */
+/*  and height becomes width due to rotation  */
+.hand {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+#player-hand {
+  filter: hue-rotate(220deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#computer-hand {
+  -ms-filter: "hue-rotate(30deg)";
+  filter: hue-rotate(120deg);
+  -moz-transform: rotate(-90deg) scaleX(-1);
+  -ms-transform: rotate(-90deg) scaleX(-1);
+  -o-transform: rotate(-90deg) scaleX(-1);
+  -webkit-transform: rotate(-90deg) scaleX(-1);
+  transform: rotate(-90deg) scaleX(-1);
+}
+
+.rock {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270a.svg");
+  background-size: 70% 70%;
+}
+
+.paper {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270b.svg");
+  background-size: 90% 90%;
+}
+
+.scissors {
+  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270c.svg");
+  background-size: 100% 100%;
+}
+
+.controls {
+  height: 20vh;
+  padding: 0 0 5vh 0;
+  box-sizing: border-box;
+
+}
+.controls li {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+}
+
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  font-size: 3vh;
+  color: lightblue;
+  text-align: center;
+
+}
+
+footer a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+@media (max-height: 400px) {
+  .hand {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-height: 500px) and (min-width: 544px) {
+  .hands {
+    height: 45vh;
+  }
+
+  .hand {
+    width: 220px;
+    height: 220px;
+  }
+
+  header div {
+    font-size: 16vh;
+  }
+}
+
+@media (min-height: 700px) and (min-width: 768px) {
+  .hand {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media (min-height: 900px) and (min-width: 992px) {
+  .hand {
+    width: 380px;
+    height: 380px;
+  }
+}

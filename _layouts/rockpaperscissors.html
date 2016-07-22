@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/rockpaperscissors.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <title>Rock, Paper, Scissors!</title>
+  </head>
+  <body>
+    <div class="full-page-container">
+      <section id="alert-box" class="alert-box">
+        Choose your character!
+      </section>
+      <ul id="character-choices" class="character-choices">
+        <li id="dog" class="character-choice dog"></li>
+        <li id="tiger" class="character-choice tiger"></li>
+        <li id="chick" class="character-choice chick"></li>
+        <li id="tako" class="character-choice tako"></li>
+        <li id="moon" class="character-choice moon"></li>
+        <li id="santa" class="character-choice santa"></li>
+        <li id="alien" class="character-choice alien"></li>
+        <li id="poop" class="character-choice poop"></li>
+        <li id="smiley" class="character-choice smiley"></li>
+        <li id="purple-demon" class="character-choice purple-demon"></li>
+      </ul>
+
+      <main>
+        <header>
+          <div id="player">
+            <ul>
+              <li class="character"></li><li class="wins">0</li>
+            </ul>
+          </div>
+          <div id="computer">
+            <ul>
+              <li class="wins">0</li><li class="character"></li>
+            </ul>
+          </div>
+        </header>
+
+        <section id="hands" class="hands">
+          <div class="hand-container">
+            <div id="player-hand" class="hand rock"></div>
+          </div><div class="hand-container">
+            <div id="computer-hand" class="hand rock"></div>
+          </div>
+        </section>
+
+        <ul class="controls">
+          <li id="rock" class="rock"></li><li id="paper" class="paper">
+          </li><li id="scissors" class="scissors"></li>
+        </ul>
+      </main>
+
+      <footer>Made with <a href="https://github.com/twitter/twemoji">Twemoji</a></footer>
+    </div>
+    <script type="text/javascript" src="/scripts/rockpaperscissors.js"></script>
+  </body>
+</html>

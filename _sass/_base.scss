@@ -1,0 +1,55 @@
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $main-text-color;
+  background: $body-background-color;
+}
+
+p {
+  padding: 0 10px;
+
+  a:link,
+  a:visited {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: $highlight-color-1;
+    text-decoration: underline;
+  }
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+h1 {
+  font-family: $heading-font-family;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.23rem;
+}
+
+
+a:link,
+a:visited,
+a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+
+    path {
+      fill: $highlight-color-1;
+    }
+  }
+}

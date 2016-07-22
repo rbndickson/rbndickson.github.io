@@ -1,0 +1,138 @@
+//
+// Default is for screens under 800px
+//
+
+header {
+  text-align: center;
+
+  .tricolor-bar {
+    height: 10px;
+
+    div {
+      float: left;
+      width: 33.33%;
+      height: 10px;
+      padding: 0;
+    }
+
+    div:nth-child(1) {
+      background: $highlight-color-1;
+    }
+
+    div:nth-child(2) {
+      background: $highlight-color-2;
+    }
+
+    div:nth-child(3) {
+      background: $highlight-color-3;
+    }
+  }
+
+  img {
+    width: 110px;
+    height: 110px;
+    margin: 30px auto 10px auto;
+    border-radius: 50%;
+  }
+}
+
+nav ul {
+  width: 320px;
+  margin: auto;
+
+  li {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: $nav-link-color;
+  }
+}
+
+.project-list > li {
+  margin: 20px 0;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  border: solid 15px $card-background-color;
+  box-sizing: border-box;
+}
+
+.figure-link img:hover {
+  border: solid 15px $highlight-color-2;
+}
+
+figcaption {
+  color: $main-text-color;
+  text-align: center;
+  background: $body-background-color;
+}
+
+.categories-list li {
+  display: inline-block;
+  font-size: $small-font-size;
+}
+
+//
+// On large screens
+//
+@media (min-width: 800px) {
+  body {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .tricolor-bar {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 140px;
+    padding: 0 10px;
+    text-align: right;
+  }
+
+  header::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  header img {
+    margin: 100px 0 0 0;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  nav ul {
+    width: inherit;
+    margin: 10px 0 0 0;
+  }
+
+  nav ul::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  nav ul li {
+    display: block;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  main {
+    padding: 0 3%;
+    margin: 60px 0 0 160px;
+  }
+
+  figure img {
+    border-radius: 4px;
+  }
+}

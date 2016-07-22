@@ -1,0 +1,41 @@
+---
+# Only the main Sass file needs front matter
+# (the dashes must be kept here)
+---
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+$white:                 #fff;
+$blue1:                 #4fbffc;
+$blue2:                 #68d5fd;
+$blue3:                 #7de4fd;
+$blue-black:            #2f4858;
+$very-light-blue:       #e1eff6;
+
+$body-background-color: $white;
+$main-text-color:       $blue-black;
+$title-text-color:      $blue-black;
+$nav-link-color:        $blue1;
+$card-background-color: $blue1;
+$card-border-color:     $very-light-blue;
+$card-text-color:       $blue-black;
+$highlight-color-1:     $blue1;
+$highlight-color-2:     $blue2;
+$highlight-color-3:     $blue3;
+
+$base-font-family:      "Open Sans", Arial, sans-serif;
+$base-font-size:         16px;
+$base-font-weight:       400;
+$small-font-size:        $base-font-size * 0.875;
+$base-line-height:       1.5;
+
+$heading-font-family:    Raleway, Arial, sans-serif;
+
+// Import partials from `_sass`
+@import "resets";
+@import "base";
+@import "layout";
+@import "page";
+@import "project";

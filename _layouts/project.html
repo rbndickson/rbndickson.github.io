@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article>
+  <figure>
+    <img src="/images/{{ page.img }}.png">
+
+    <figcaption>
+      <h2>{{ page.title }}</h2>
+      <ul class="site-links">
+        <li><a href="{{ page.demo }}">[DEMO]</a></li>
+        <li><a href="{{ page.repository }}">[CODE]</a></li>
+      </ul>
+      <h3>{{ page.created_in }}</h3>
+    </figcaption>
+  </figure>
+
+  <p>
+    {{ content }}
+  </p>
+
+  <section>
+    <h2>Features</h2>
+    <ul>
+      {% for feature in page.features %}
+      <li>{{ feature }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Technologies</h2>
+    <ul>
+      {% for technology in page.technologies %}
+      <li>{{ technology }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

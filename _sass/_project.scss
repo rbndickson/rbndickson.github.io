@@ -1,0 +1,67 @@
+article {
+  margin: 20px 0 0 0;
+
+  p {
+    margin: 20px 0;
+  }
+
+  > h2 {
+    margin: 5px 0 0 0;
+  }
+
+  .site-links li {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 14px;
+
+  }
+
+  a:hover {
+    color: $highlight-color-1;
+  }
+}
+
+section {
+  display: block;
+  margin: 0 0 15px 0;
+  border: 5px 0 0 0 solid $highlight-color-1;
+  box-sizing: border-box;
+
+  h2 {
+    padding: 0 10px 4px 10px;
+    color: $white;
+    text-align: center;
+    background: $highlight-color-1;
+  }
+
+  ul {
+    // align list item text
+    padding: 10px 0 10px 30px;
+    text-indent: -1em;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
+
+@media (min-width: 800px) {
+  article::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  section {
+    float: left;
+    width: 48%;
+    border: 5px solid $highlight-color-1;
+    border-radius: 4px;
+  }
+
+  section:nth-of-type(1) {
+    margin: 0 2% 10px 0;
+  }
+
+  section:nth-of-type(2) {
+    margin: 0 0 10px 2%;
+  }
+}
