@@ -57,6 +57,7 @@ figure img {
   height: 100%;
   border: solid 15px $card-background-color;
   box-sizing: border-box;
+  transition: border .2s ease;
 }
 
 .figure-link img:hover {
