@@ -1,22 +1,25 @@
 var Display = {
-  addInstruction: function() {
-    $( "#alert-box" ).html( "Choose <u>R</u>ock <u>P</u>aper or <u>S</u>cissors!" );
-    $( "#alert-box" ).addClass( "keyboard-instructions" );
-  },
-
-  prepareGameDisplay: function() {
+  transitionMenuToGame: function() {
     $( "#" + game.player_character ).effect(
       "pulsate", { times: 1 }, 1500, function() {
+        $( "#alert-box" ).fadeTo( 300, 0 );
         $( "#character-choices" ).fadeOut(
           300, function() {
             if( $( window ).width() < 800 ) {
-              $( "#alert-box" ).slideUp();
+              $( "#alert-box" ).hide();
+            } else {
+              Display.showKeyboardInstructions();
             }
-            $( "main" ).fadeIn( 300, Display.addInstruction );
+            $( "main" ).fadeIn( 300 );
           }
         );
       }
     );
+  },
+
+  showKeyboardInstructions: function() {
+    $( "#alert-box" ).html( "Choose <u>R</u>ock, <u>P</u>aper or <u>S</u>cissors!" );
+    $( "#alert-box" ).fadeTo( 300, 100 );
   },
 
   addComputerCharacter: function() {
@@ -80,7 +83,7 @@ Game.prototype = {
       game.player_character = this.id;
       Display.addPlayerCharacter();
       Display.addComputerCharacter();
-      Display.prepareGameDisplay();
+      Display.transitionMenuToGame();
     });
   },
 

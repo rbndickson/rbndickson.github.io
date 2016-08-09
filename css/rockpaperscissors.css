@@ -26,10 +26,6 @@ body {
   box-sizing: border-box;
 }
 
-.keyboard-instructions {
-  display: none;
-}
-
 .character-choices {
   margin: auto;
   text-align: center;
@@ -179,14 +175,13 @@ header::after {
   height: 20vh;
   padding: 0 0 5vh 0;
   box-sizing: border-box;
-
 }
+
 .controls li {
   display: inline-block;
   width: 33%;
   height: 100%;
 }
-
 
 footer {
   position: fixed;
@@ -197,7 +192,6 @@ footer {
   font-size: 3vh;
   color: lightblue;
   text-align: center;
-
 }
 
 footer a {
