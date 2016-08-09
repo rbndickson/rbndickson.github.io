@@ -1,4 +1,5 @@
 body {
+  overflow-y: scroll;;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $main-text-color;
   background: $body-background-color;
