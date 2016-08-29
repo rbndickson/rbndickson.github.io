@@ -1,6 +1,6 @@
 body {
   overflow-y: scroll;;
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$small-font-size}/#{$base-line-height} $base-font-family;
   color: $main-text-color;
   background: $body-background-color;
 }
@@ -52,5 +52,11 @@ a:hover {
     path {
       fill: $highlight-color-1;
     }
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: $base-font-size;
   }
 }
