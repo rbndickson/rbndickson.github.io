@@ -1,3 +1,9 @@
 .page-article {
-  margin: 100px 0 0 0;
+  margin: 20px 0 0 0;
+}
+
+@media (min-width: 800px) {
+  .page-article {
+    margin: 100px 0 0 0;
+  }
 }
