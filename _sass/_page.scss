@@ -1,9 +1,36 @@
 .page-article {
   margin: 20px 0 0 0;
+
+  img {
+    height: 150px;
+  }
+
+  img {
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+.about-photos {
+  text-align: center;
+}
+
+@media (min-width: 475px) {
+  .page-article {
+    margin: 100px 0 0 0;
+
+    img {
+      height: 200px;
+    }
+  }
 }
 
 @media (min-width: 800px) {
   .page-article {
     margin: 100px 0 0 0;
+
+    img {
+      height: 250px;
+    }
   }
 }

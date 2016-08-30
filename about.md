@@ -10,3 +10,8 @@ Studied Ruby, Rails, Sinatra, Javascript and associated technologies with Tealea
 Looking for an opportunity to contribute to a company making a difference, and to continue learning.
 
 Formerly taught English in elementary schools, junior high schools, and high schools in Tokyo.
+
+<div class="about-photos">
+<img src="/images/cat.jpg" class="cat">
+<img src="/images/teaching.jpg" class="teaching">
+</div>
