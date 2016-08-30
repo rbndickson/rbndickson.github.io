@@ -1,0 +1,16 @@
+.games-list {
+  margin: 40px 0 0 0;
+  font: normal 24px 'Fredoka One', 'Helvetica', Arial, Sans-serif;
+  text-align: center;
+
+  a:hover {
+    color: $nav-link-color;
+    transition: color .25s ease-in-out;
+  }
+}
+
+@media (min-width: 800px) {
+  .games-list {
+    margin: 100px 0 0 0;
+  }
+}

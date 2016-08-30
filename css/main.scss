@@ -6,6 +6,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
 
 $white:                 #fff;
 $blue1:                 #4fbffc;
@@ -39,3 +41,4 @@ $heading-font-family:    Raleway, Arial, sans-serif;
 @import "layout";
 @import "page";
 @import "project";
+@import "play";
