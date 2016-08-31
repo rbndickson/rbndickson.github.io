@@ -10,12 +10,12 @@ layout: default
         {% endfor %}
       </span>
       <h2><a href="{{ game.url | prepend: site.baseurl }}">{{ game.title }}</a></h2>
-      <ul class="categories-list">
-        {% for category in project.categories %}
-          <img>
-        {% endfor %}
-      </ul>
-      {% include icon-github.html username="rbndickson" repository=game.repostitory %}
+      <p>
+        {% include icon-github.html username="rbndickson" repository=game.repostitory %}
+      </p>
+      <p class="game-description">
+        {{ game.description }}
+      </p>
     </li>
   {% endfor %}
 </ul>

@@ -1,6 +1,6 @@
 .games-list {
   margin: 40px 0 0 0;
-  font: normal 24px 'Fredoka One', 'Helvetica', Arial, Sans-serif;
+  font: normal 24px "Fredoka One", "Open Sans", Arial, sans-serif;
   text-align: center;
 
   a {
@@ -10,6 +10,10 @@
   a:hover {
     color: $nav-link-color;
   }
+}
+
+.game-description {
+  font: normal $base-font-size $base-font-family;
 }
 
 @media (min-width: 800px) {
