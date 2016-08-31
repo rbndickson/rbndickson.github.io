@@ -1,0 +1,88 @@
+body {
+  background: skyblue;
+  font: normal 24px 'Fredoka One', Helvetica, Arial, Sans-serif;
+  color: royalblue;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: royalblue;
+}
+
+main {
+  font: normal 72px Helvetica, Arial, Sans-serif;
+  color: #000;
+}
+
+nav {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+nav a {
+  color: royalblue;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}
+
+.word {
+  height: 100px;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.letter {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  margin: 0 10px;
+  border-bottom: 3px solid #000;
+  box-sizing: border-box;
+  line-height: 0;
+  text-align: center;
+  vertical-align: middle;
+  background: lightyellow;
+}
+
+.incorrect-guesses {
+  height: 80px;
+  width: 600px;
+  margin: auto;
+}
+
+.guessed-letter {
+  text-decoration: line-through;
+  margin: 0 10px;
+}
+
+.tree {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto 15px auto;
+  background-image: url("https://twemoji.maxcdn.com/svg/1f333.svg");
+}
+
+.apple {
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://twemoji.maxcdn.com/svg/1f34e.svg");
+}
+
+.sunny {
+  background: skyblue no-repeat center url("https://twemoji.maxcdn.com/svg/1f31e.svg");
+  background-size: 20%;
+  background-position: 75% 5%;
+}
+
+.ghosty {
+  background: skyblue no-repeat center url("https://twemoji.maxcdn.com/svg/1f47b.svg");
+  background-size: 20%;
+  background-position: 22% 5%;
+}
