@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Love learning, making and travelling.
 
-Studied Ruby, Rails, Sinatra, Javascript and associated technologies with Tealeaf Academy, which became <a href="https://launchschool.com">Launchschool</a>.
+Studied Ruby, Rails, Sinatra, Javascript and associated technologies with Tealeaf Academy, which became <a href="https://launchschool.com">Launchschool</a>. Details of the courses can be found <a href="/courses.html">here</a>.
 
 Looking for an opportunity to contribute to a company making a difference, and to continue learning.
 

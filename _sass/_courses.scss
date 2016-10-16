@@ -1,0 +1,63 @@
+.course-item {
+  display: block;
+  padding: 15px;
+
+  h2 a {
+    transition: color .25s ease-in-out;
+  }
+
+  h2 a:hover {
+    color: $nav-link-color;
+  }
+}
+
+.period {
+  font-family: 'Monaco', 'Consolas', 'Lucida Console', monospace;
+  font-size: 14px;
+  opacity: .6;
+}
+
+.course-details {
+  display: none;
+  padding: 10px 0 0 0;
+
+  h3 {
+    padding: 5px 0;
+    font-size: $base-font-size;
+  }
+}
+
+.course-content {
+  ul {
+    li {
+      padding: 0 0 0 4px;
+      margin: 0 0 0 30px;
+      list-style-type: disc;
+    }
+  }
+}
+
+.project-item, .coursework-item {
+  li {
+    display: inline;
+  }
+}
+
+.course-project-icon {
+  margin: 0 5px;
+}
+
+.course-link {
+  font-family: 'Monaco', 'Consolas', 'Lucida Console', monospace;
+  font-size: 14px;
+
+  a:hover {
+    color: $highlight-color-1;
+  }
+}
+
+@media (min-width: 800px) {
+  .courses-list {
+    margin: 100px 0 0 0;
+  }
+}
