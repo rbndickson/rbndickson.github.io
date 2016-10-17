@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
+<p class="course-instructions light-mono-text">
+  Click course name for details
+</p>
 <ol>
 
   {% for course in site.courses reversed %}
     <li class="course-item">
       <section class="course-summary">
-        <h4 class="period">{{ course.period }}</h4>
+        <h4 class="light-mono-text">{{ course.period }}</h4>
         <h2><a href="javascript:void(0)">{{ course.title }}</a></h2>
         <p>
           {{ course.description }}

@@ -1,3 +1,9 @@
+.light-mono-text {
+  font-family: 'Monaco', 'Consolas', 'Lucida Console', monospace;
+  font-size: 14px;
+  opacity: .6;
+}
+
 .course-item {
   display: block;
   padding: 15px;
@@ -11,10 +17,8 @@
   }
 }
 
-.period {
-  font-family: 'Monaco', 'Consolas', 'Lucida Console', monospace;
-  font-size: 14px;
-  opacity: .6;
+.course-instructions, {
+  margin: 0 15px;
 }
 
 .course-details {
