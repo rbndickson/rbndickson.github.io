@@ -32,12 +32,17 @@ h2 {
   font-size: 1.23rem;
 }
 
-
 a:link,
 a:visited,
 a:hover {
   color: inherit;
   text-decoration: inherit;
+}
+
+.light-mono-text {
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  opacity: .6;
 }
 
 .icon {

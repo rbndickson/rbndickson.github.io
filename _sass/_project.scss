@@ -11,8 +11,8 @@ article {
 
   .site-links li {
     display: inline-block;
-    font-family: monospace;
-    font-size: 14px;
+    font-family: $mono-font-family;
+    font-size: $small-font-size;
 
   }
 
