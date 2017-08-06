@@ -9,15 +9,19 @@ layout: default
       <h2>{{ page.title }}</h2>
       <ul class="site-links">
         <li><a href="{{ page.demo }}">[DEMO]</a></li>
-        <li><a href="{{ page.repository }}">[CODE]</a></li>
+        {% if page.repository %}
+          <li><a href="{{ page.repository }}">[CODE]</a></li>
+        {% endif %}
       </ul>
       <h3>{{ page.created_in }}</h3>
     </figcaption>
   </figure>
 
-  <p>
-    {{ content }}
-  </p>
+  <article class="page-article">
+    <p>
+      {{ content }}
+    </p>
+  </article>
 
   <section class="project-section">
     <h2>Features</h2>
