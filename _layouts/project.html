@@ -8,7 +8,9 @@ layout: default
     <figcaption>
       <h2>{{ page.title }}</h2>
       <ul class="site-links">
-        <li><a href="{{ page.demo }}">[DEMO]</a></li>
+        {% if page.demo %}
+          <li><a href="{{ page.demo }}">[DEMO]</a></li>
+        {% endif %}
         {% if page.repository %}
           <li><a href="{{ page.repository }}">[CODE]</a></li>
         {% endif %}
