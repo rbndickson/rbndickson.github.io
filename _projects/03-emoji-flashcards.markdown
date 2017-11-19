@@ -4,7 +4,7 @@ title: Emoji Flashcards
 slug: emoji-flashcards
 img: emoji-flashcards
 demo: http://emojiflashcards.com
-date: 2016-09-01 10:10:10 +0100
+date: 2017-11-01 10:10:10 +0100
 categories: NodeJS ExpressJS
 features:
   - Printable flashcards
