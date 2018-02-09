@@ -49,6 +49,10 @@ nav ul {
   }
 }
 
+.appledrop {
+  display: none;
+}
+
 .project-list > li {
   margin: 20px 0;
 }
@@ -159,5 +163,11 @@ footer {
 
   footer {
     margin: 30px 0 20px 180px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .appledrop {
+    display: inline;
   }
 }
