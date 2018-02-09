@@ -2,36 +2,36 @@
 // Default is for screens under 800px
 //
 
-header {
-  text-align: center;
+body {
+  max-width: 600px;
+  margin: auto;
+}
 
-  .tricolor-bar {
-    height: 10px;
+.tricolor-bar {
+  height: 4px;
 
-    div {
-      float: left;
-      width: 33.33%;
-      height: 10px;
-      padding: 0;
-    }
+  div {
+    float: left;
+    width: 33.33%;
+    height: 4px;
+    padding: 0;
+  }
 
-    div:nth-child(1) {
-      background: $highlight-color-1;
-    }
+  div:nth-child(1) {
+    background: $highlight-color-1;
+  }
 
-    div:nth-child(2) {
-      background: $highlight-color-2;
-    }
+  div:nth-child(2) {
+    background: $highlight-color-2;
+  }
 
-    div:nth-child(3) {
-      background: $highlight-color-3;
-    }
+  div:nth-child(3) {
+    background: $highlight-color-3;
   }
 }
 
 nav ul {
   width: 100%;
-  margin: auto;
 
   li {
     display: inline-block;
@@ -54,19 +54,19 @@ nav ul {
 }
 
 .project-list > li {
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 
 figure img {
   width: 100%;
   height: 100%;
-  border: solid 15px $card-background-color;
+  border: solid 4px $card-background-color;
   box-sizing: border-box;
   transition: border 0.2s ease-in-out;
 }
 
 .figure-link img:hover {
-  border: solid 15px $highlight-color-2;
+  border: solid 4px $highlight-color-2;
 }
 
 figcaption {
@@ -101,60 +101,17 @@ footer {
 //
 // On large screens
 //
-@media (min-width: 800px) {
-  body {
-    max-width: 900px;
-    margin: auto;
-  }
-
+@media (min-width: 600px) {
   .tricolor-bar {
     display: none;
   }
 
   header {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 140px;
-    padding: 0 10px;
-    text-align: right;
-  }
-
-  header::after {
-    display: block;
-    clear: both;
-    content: "";
-  }
-
-  header h1 {
-    margin: 60px 0 0 0;
-  }
-
-  nav {
-    text-align: right;
-  }
-
-  nav ul {
-    width: inherit;
-    margin: 10px 0 0 0;
-  }
-
-  nav ul::after {
-    display: block;
-    clear: both;
-    content: "";
-  }
-
-  nav ul li {
-    display: block;
-    padding: 0;
-    font-size: 18px;
+    margin: 30px 0 0 0;
   }
 
   main {
     min-height: 500px;
-    padding: 0 3%;
-    margin: 60px 0 0 180px;
   }
 
   figure img {
@@ -162,12 +119,25 @@ footer {
   }
 
   footer {
-    margin: 30px 0 20px 180px;
+    margin: 30px 0 20px 0;
+    font-size: 0.786em;
   }
 }
 
 @media (min-width: 1000px) {
   .appledrop {
     display: inline;
+  }
+
+  figure img {
+    width: 100%;
+    height: 100%;
+    border: solid 10px $card-background-color;
+    box-sizing: border-box;
+    transition: border 0.2s ease-in-out;
+  }
+
+  .figure-link img:hover {
+    border: solid 10px $highlight-color-2;
   }
 }

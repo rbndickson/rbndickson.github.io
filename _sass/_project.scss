@@ -13,7 +13,6 @@ article {
     display: inline-block;
     font-family: $mono-font-family;
     font-size: $small-font-size;
-
   }
 
   a:hover {
@@ -37,7 +36,7 @@ article {
   ul {
     padding: 10px 20px 10px 40px;
     list-style-type: disc;
-    
+
     li {
       list-style-position: outside;
     }

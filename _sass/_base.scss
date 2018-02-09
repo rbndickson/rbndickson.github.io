@@ -31,7 +31,6 @@ h1 {
   font-family: $heading-font-family;
   font-size: 22px;
   font-weight: 500;
-  text-align: left;
   padding: 10px 0 0 10px;
 }
 
@@ -75,9 +74,5 @@ a:hover {
 @media (min-width: 800px) {
   body {
     font-size: $base-font-size;
-  }
-
-  h1 {
-    text-align: right;
   }
 }
