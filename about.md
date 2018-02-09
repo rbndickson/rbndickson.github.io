@@ -3,15 +3,18 @@ layout: page
 title: About
 permalink: /about/
 ---
-Love learning, making and travelling.
-
-Studied Ruby, Rails, Sinatra, Javascript and associated technologies with Tealeaf Academy, which became <a href="https://launchschool.com">Launchschool</a>. Details of the courses can be found <a href="/courses.html">here</a>.
-
-Looking for an opportunity to contribute to a company making a difference, and to continue learning.
-
-Formerly taught English in elementary schools, junior high schools, and high schools in Tokyo.
-
-<div class="about-photos">
-<img src="/images/cat.jpg" class="cat">
-<img src="/images/teaching.jpg" class="teaching">
+<div>
+  <img class='about-image' src="/images/rbn_and_selina_square.jpg">
 </div>
+
+👨‍💻 Coding and teaching from locations worldwide
+
+🇻🇳 Currently in Vietnam
+
+📱 Studied React & React Native with <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a>
+
+🚀 Studied Ruby, Rails and JS with <a href="https://launchschool.com">Launchschool
+
+🗼 Taught English in elementary and high schools in Tokyo
+
+🇯🇵 Studied Japanese to JLPT N2 level
