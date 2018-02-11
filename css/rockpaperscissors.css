@@ -44,6 +44,7 @@ body {
   width: 70px;
   height: 70px;
   padding: 0 5px;
+  cursor: pointer;
 }
 
 main {
@@ -265,6 +266,7 @@ header::after {
   display: inline-block;
   width: 33%;
   height: 100%;
+  cursor: pointer;
 }
 
 footer {
