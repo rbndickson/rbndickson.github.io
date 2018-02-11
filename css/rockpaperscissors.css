@@ -34,8 +34,9 @@ body {
 
 .character-choice {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  padding: 0 5px;
 }
 
 main {
@@ -75,52 +76,52 @@ header::after {
 
 .dog {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f436.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f436.svg");
 }
 
 .tiger {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f42f.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f42f.svg");
 }
 
 .chick {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f425.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f425.svg");
 }
 
 .tako {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f419.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f419.svg");
 }
 
 .moon {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f31d.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f31d.svg");
 }
 
 .sun {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f31e.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f31e.svg");
 }
 
 .alien {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f47d.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f47d.svg");
 }
 
 .poop {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f4a9.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f4a9.svg");
 }
 
 .smiley {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f600.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f600.svg");
 }
 
 .purple-demon {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f608.svg");
+    url("https://twemoji.maxcdn.com/2/svg/1f608.svg");
 }
 
 .hands {
