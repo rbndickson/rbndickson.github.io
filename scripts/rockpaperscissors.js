@@ -64,7 +64,7 @@ Game.prototype = {
     "chick",
     "tako",
     "moon",
-    "santa",
+    "sun",
     "alien",
     "poop",
     "smiley",

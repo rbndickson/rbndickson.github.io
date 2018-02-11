@@ -98,9 +98,9 @@ header::after {
     url("https://twemoji.maxcdn.com/svg/1f31d.svg");
 }
 
-.santa {
+.sun {
   background: transparent no-repeat center
-    url("https://twemoji.maxcdn.com/svg/1f385.svg");
+    url("https://twemoji.maxcdn.com/svg/1f31e.svg");
 }
 
 .alien {
