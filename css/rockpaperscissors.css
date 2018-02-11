@@ -150,7 +150,6 @@ header::after {
 }
 
 #player-hand {
-  stroke: #9266cc;
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -160,7 +159,6 @@ header::after {
 
 #computer-hand {
   -ms-filter: "hue-rotate(30deg)";
-  filter: hue-rotate(120deg);
   -moz-transform: rotate(-90deg) scaleX(-1);
   -ms-transform: rotate(-90deg) scaleX(-1);
   -o-transform: rotate(-90deg) scaleX(-1);
@@ -184,6 +182,70 @@ header::after {
   background: transparent no-repeat center
     url("https://twemoji.maxcdn.com/svg/270c.svg");
   background-size: 100% 100%;
+}
+
+.rock.brown {
+  background: transparent no-repeat center url("/images/rps/rock-brown.svg");
+}
+
+.rock.grey {
+  background: transparent no-repeat center url("/images/rps/rock-grey.svg");
+}
+
+.rock.light-purple {
+  background: transparent no-repeat center
+    url("/images/rps/rock-light-purple.svg");
+}
+
+.rock.purple {
+  background: transparent no-repeat center url("/images/rps/rock-purple.svg");
+}
+
+.rock.yellow {
+  background: transparent no-repeat center url("/images/rps/rock-yellow.svg");
+}
+
+.paper.brown {
+  background: transparent no-repeat center url("/images/rps/paper-brown.svg");
+}
+
+.paper.grey {
+  background: transparent no-repeat center url("/images/rps/paper-grey.svg");
+}
+
+.paper.light-purple {
+  background: transparent no-repeat center
+    url("/images/rps/paper-light-purple.svg");
+}
+
+.paper.purple {
+  background: transparent no-repeat center url("/images/rps/paper-purple.svg");
+}
+
+.paper.yellow {
+  background: transparent no-repeat center url("/images/rps/paper-yellow.svg");
+}
+
+.scissors.brown {
+  background: transparent no-repeat center url("/images/rps/scissors-brown.svg");
+}
+
+.scissors.grey {
+  background: transparent no-repeat center url("/images/rps/scissors-grey.svg");
+}
+
+.scissors.light-purple {
+  background: transparent no-repeat center url("/images/rps/scissors-peach.svg");
+}
+
+.scissors.purple {
+  background: transparent no-repeat center
+    url("/images/rps/scissors-purple.svg");
+}
+
+.scissors.yellow {
+  background: transparent no-repeat center
+    url("/images/rps/scissors-yellow.svg");
 }
 
 .controls {

@@ -33,6 +33,27 @@ var Display = {
     $("#player li.character").addClass(game.player_character);
   },
 
+  setHandColors: function() {
+    var CHARACTER_COLORS = {
+      dog: "grey",
+      tiger: "yellow",
+      chick: "yellow",
+      tako: "purple",
+      moon: "grey",
+      sun: "yellow",
+      alien: "grey",
+      poop: "brown",
+      smiley: "yellow",
+      "purple-demon": "light-purple"
+    };
+
+    $("#player-hand").addClass(CHARACTER_COLORS[game.player_character]);
+    $("#computer-hand").addClass(CHARACTER_COLORS[game.computer_character]);
+    $("#rock").addClass(CHARACTER_COLORS[game.player_character]);
+    $("#paper").addClass(CHARACTER_COLORS[game.player_character]);
+    $("#scissors").addClass(CHARACTER_COLORS[game.player_character]);
+  },
+
   updatePoints: function() {
     $("#player ul li.wins").text(game.wins.player);
     $("#computer ul li.wins").text(game.wins.computer);
@@ -86,6 +107,7 @@ Game.prototype = {
       game.player_character = this.id;
       Display.addPlayerCharacter();
       Display.addComputerCharacter();
+      Display.setHandColors();
       Display.transitionMenuToGame();
     });
   },
@@ -168,7 +190,12 @@ Game.prototype = {
   },
 
   resetHandToRock: function() {
-    $(".hand").attr("class", "hand rock");
+    $("#player-hand").removeClass("paper");
+    $("#player-hand").removeClass("scissors");
+    $("#player-hand").addClass("rock");
+    $("#computer-hand").removeClass("paper");
+    $("#computer-hand").removeClass("scissors");
+    $("#computer-hand").addClass("rock");
   }
 };
 
