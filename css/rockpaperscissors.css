@@ -147,9 +147,9 @@ header::after {
 /*  for the hands the width becomes height  */
 /*  and height becomes width due to rotation  */
 .hand {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  margin: 30px auto 0 auto;
 }
 
 #player-hand {
