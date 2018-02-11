@@ -35,7 +35,7 @@ var Display = {
 
   setHandColors: function() {
     var CHARACTER_COLORS = {
-      dog: "grey",
+      rabbit: "dark-grey",
       tiger: "yellow",
       chick: "yellow",
       tako: "purple",
@@ -80,7 +80,7 @@ Game.prototype = {
   },
 
   characters: [
-    "dog",
+    "rabbit",
     "tiger",
     "chick",
     "tako",
