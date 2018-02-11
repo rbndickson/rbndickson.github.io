@@ -21,13 +21,6 @@ body {
   left: 0;
 }
 
-.back-button {
-  float: left;
-  height: 25px;
-  width: 25px;
-  margin: 10px 0 0 10px;
-}
-
 .alert-box {
   width: 100%;
   height: 15vh;
@@ -291,8 +284,8 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 5vh;
-  font-size: 0.5em;
+  height: 30px;
+  font-size: 12px;
   text-align: right;
 }
 
@@ -300,6 +293,26 @@ footer a {
   text-decoration: none;
   color: #9266cc;
   padding-right: 20px;
+}
+
+footer div {
+  width: 49%;
+  display: inline-block;
+}
+
+.footer-left {
+  float: left;
+  text-align: left;
+}
+
+.back-button {
+  height: 25px;
+  width: 25px;
+  margin: 0 0 0 10px;
+}
+
+.footer-right {
+  float: right;
 }
 
 @media (max-height: 400px) {
