@@ -19,6 +19,13 @@ body {
   left: 0;
 }
 
+.back-button {
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin: 10px 0 0 10px;
+}
+
 .alert-box {
   width: 100%;
   height: 15vh;
