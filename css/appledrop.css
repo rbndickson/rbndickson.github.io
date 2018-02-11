@@ -1,10 +1,11 @@
 body {
   background: skyblue;
-  font: normal 24px 'Fredoka One', Helvetica, Arial, Sans-serif;
+  font: normal 24px "Fredoka One", Helvetica, Arial, Sans-serif;
   color: royalblue;
 }
 
-a, a:link {
+a,
+a:link {
   text-decoration: none;
   color: royalblue;
 }
@@ -76,13 +77,15 @@ footer {
 }
 
 .sunny {
-  background: skyblue no-repeat center url("https://twemoji.maxcdn.com/svg/1f31e.svg");
+  background: skyblue no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f31e.svg");
   background-size: 20%;
   background-position: 75% 5%;
 }
 
 .ghosty {
-  background: skyblue no-repeat center url("https://twemoji.maxcdn.com/svg/1f47b.svg");
+  background: skyblue no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f47b.svg");
   background-size: 20%;
   background-position: 22% 5%;
 }

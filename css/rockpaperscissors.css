@@ -1,5 +1,6 @@
 /*  resets  */
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -7,7 +8,7 @@ ul, li {
 /*  end resets  */
 
 body {
-  font: normal 4vh 'Fredoka One', 'Helvetica', Arial, Sans-serif;
+  font: normal 4vh "Fredoka One", "Helvetica", Arial, Sans-serif;
 }
 
 .full-page-container {
@@ -73,43 +74,53 @@ header::after {
 }
 
 .dog {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f436.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f436.svg");
 }
 
 .tiger {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f42f.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f42f.svg");
 }
 
 .chick {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f425.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f425.svg");
 }
 
 .tako {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f419.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f419.svg");
 }
 
 .moon {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f31d.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f31d.svg");
 }
 
 .santa {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f385.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f385.svg");
 }
 
 .alien {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f47d.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f47d.svg");
 }
 
 .poop {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f4a9.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f4a9.svg");
 }
 
 .smiley {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f600.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f600.svg");
 }
 
 .purple-demon {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/1f608.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/1f608.svg");
 }
 
 .hands {
@@ -138,7 +149,7 @@ header::after {
 }
 
 #player-hand {
-  filter: hue-rotate(220deg);
+  stroke: #9266cc;
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -157,17 +168,20 @@ header::after {
 }
 
 .rock {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270a.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/270a.svg");
   background-size: 70% 70%;
 }
 
 .paper {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270b.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/270b.svg");
   background-size: 90% 90%;
 }
 
 .scissors {
-  background: transparent no-repeat center url("https://twemoji.maxcdn.com/svg/270c.svg");
+  background: transparent no-repeat center
+    url("https://twemoji.maxcdn.com/svg/270c.svg");
   background-size: 100% 100%;
 }
 
