@@ -238,12 +238,18 @@ header::after {
   background: transparent no-repeat center url("/images/rps/scissors-brown.svg");
 }
 
+.scissors.dark-grey {
+  background: transparent no-repeat center
+    url("/images/rps/scissors-dark-grey.svg");
+}
+
 .scissors.grey {
   background: transparent no-repeat center url("/images/rps/scissors-grey.svg");
 }
 
 .scissors.light-purple {
-  background: transparent no-repeat center url("/images/rps/scissors-peach.svg");
+  background: transparent no-repeat center
+    url("/images/rps/scissors-light-purple.svg");
 }
 
 .scissors.purple {
