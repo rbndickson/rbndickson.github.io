@@ -14,5 +14,3 @@ collections:
   games:
     output: true
     permalink: /games/:slug/
-  courses:
-    output: true
