@@ -1,23 +1,11 @@
-article {
-  margin: 20px 0 0 0;
+.project-description p {
+  margin: 20px 0;
+}
 
-  p {
-    margin: 20px 0;
-  }
-
-  > h2 {
-    margin: 5px 0 0 0;
-  }
-
-  .site-links li {
-    display: inline-block;
-    font-family: $mono-font-family;
-    font-size: $small-font-size;
-  }
-
-  a:hover {
-    color: $highlight-color-1;
-  }
+.site-links li {
+  display: inline-block;
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
 }
 
 .project-section {
@@ -57,11 +45,11 @@ article {
     border-radius: 4px;
   }
 
-  .project-section:nth-of-type(1) {
+  .project-section:nth-of-type(2) {
     margin: 0 2% 10px 0;
   }
 
-  .project-section:nth-of-type(2) {
+  .project-section:nth-of-type(3) {
     margin: 0 0 10px 2%;
   }
 }

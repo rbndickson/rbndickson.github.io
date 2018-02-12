@@ -30,12 +30,17 @@ body {
   }
 }
 
+//
+// Navigation
+//
+
 nav ul {
   width: 100%;
+  margin-bottom: 20px;
 
   li {
     display: inline-block;
-    padding: 15px 10px;
+    padding: 15px 20px 15px 0;
     font-size: 18px;
     color: $nav-link-color;
   }
@@ -53,8 +58,12 @@ nav ul {
   display: none;
 }
 
+//
+// Projects
+//
+
 .project-list > li {
-  margin: 20px 10px;
+  margin: 20px 0 40px 0;
 }
 
 figure img {
@@ -65,7 +74,7 @@ figure img {
   transition: border 0.2s ease-in-out;
 }
 
-.figure-link img:hover {
+.project-list-figure img:hover {
   border: solid 4px $highlight-color-2;
 }
 
@@ -137,7 +146,7 @@ footer {
     transition: border 0.2s ease-in-out;
   }
 
-  .figure-link img:hover {
+  .project-list-figure img:hover {
     border: solid 10px $highlight-color-2;
   }
 }
