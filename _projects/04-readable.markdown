@@ -7,6 +7,7 @@ demo: http://rbn-readable.herokuapp.com
 repository: http://github.com/rbndickson/udacity-readable-project
 date:   2017-09-01 10:10:10 +0100
 categories: React Redux
+platform: web
 features:
   - Create, edit and delete posts and comments
   - Vote on posts and comments

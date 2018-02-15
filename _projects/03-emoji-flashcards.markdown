@@ -6,6 +6,7 @@ img: emoji-flashcards
 demo: http://emojiflashcards.com
 date: 2017-11-01 10:10:10 +0100
 categories: Rails Ruby Rspec Slim
+platform: web
 features:
   - Printable flashcards
   - Admin and Editor User roles

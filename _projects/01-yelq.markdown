@@ -7,6 +7,7 @@ demo: http://yelq.herokuapp.com
 repository: http://github.com/rbndickson/yelq
 date:   2015-10-01 10:10:10 +0100
 categories: Rails RSpec TDD
+platform: web
 features:
   - Authentication
   - User profiles

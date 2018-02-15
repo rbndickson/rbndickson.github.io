@@ -6,6 +6,7 @@ img: mallory-for-schools
 demo: http://malloryforschools.com
 date:   2017-01-01 10:10:10 +0100
 categories: Jekyll
+platform: web
 features:
   - Content Management System
   - Responsive layout

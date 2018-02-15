@@ -7,6 +7,7 @@ demo: http://bookchange.herokuapp.com
 repository: http://github.com/rbndickson/bookchange
 date: 2016-01-01 10:10:10 +0100
 categories: Rails Rspec APIs TDD
+platform: web
 features:
   - Authentication & password reset
   - User profiles
