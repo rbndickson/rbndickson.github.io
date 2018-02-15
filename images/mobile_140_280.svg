@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="897px" height="452px" viewBox="362.869 83.786 140 280" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>IPAD 2</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="iphone" transform="matrix(1, 0, 0, 1, 367.8685, 86.767502)" stroke="#7E89A3">
+      <path d="M 130 257.964 C 130 266.797 122.809 273.956 113.938 273.956 L 16.063 273.956 C 7.192 273.956 0.001 266.797 0.001 257.964 L 0.001 16.073 C 0.001 7.24 7.192 0.081 16.063 0.081 L 113.938 0.081 C 122.809 0.081 130 7.24 130 16.073 L 130 257.964 L 130 257.964 Z" id="bezel" stroke-width="2" style="stroke: rgb(185, 185, 185); paint-order: stroke; fill: rgb(253, 253, 253);"/>
+      <rect id="screen" fill="#FFFFFF" x="9.035" y="36" width="111.93" height="199.084" style="stroke: rgb(185, 185, 185);"/>
+      <path d="M 76.031 19.745 C 76.031 20.38 75.592 20.892 75.051 20.892 L 54.949 20.892 C 54.407 20.892 53.969 20.379 53.969 19.745 L 53.969 17.165 C 53.969 16.53 54.408 16.018 54.949 16.018 L 75.051 16.018 C 75.592 16.018 76.031 16.531 76.031 17.165 L 76.031 19.745 L 76.031 19.745 Z" id="speaker" style="stroke: rgb(185, 185, 185);"/>
+      <ellipse id="lock" cx="65" cy="254.001" rx="10.04" ry="10.001" style="stroke: rgb(185, 185, 185);"/>
+    </g>
+  </g>
+</svg>

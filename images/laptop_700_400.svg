@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-2.016014575958252 -5.032028675079346 700 400" width="700" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g id="IPAD" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 680.9999999999999, 54.99999999999999)" stroke="#7E89A3" stroke-width="1" fill="none" fill-rule="evenodd"/>
+  <g id="Laptop" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1.9324910640716553, 3.962975025177002)" stroke="#8492A5" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path d="M594,0 L98,0 C84.50415,0 73,11.0738184 73,24.7901127 L73,351.027995 L619,351.027985 L619,24.7901127 C618.999971,11.0728209 607.537479,0 594,0 Z" id="bezel" stroke-width="2" style="fill: rgb(236, 236, 236); stroke: rgb(185, 185, 185); paint-order: stroke;"/>
+    <g id="bottom" transform="translate(0.000000, 351.000000)">
+      <path d="M640.812,31.01 L51.288,31.01 C20.641,31.01 0,20.494 0,16.022 L0,2.428 C0,1.084 1.335,0 2.995,0 L689.104,0 C690.766,0 692.103,1.084 692.103,2.428 L692.103,16.557 C692.096,20.092 676.112,31.01 640.812,31.01 Z" id="Shape" stroke-width="2" style="fill: rgb(236, 236, 236); stroke: rgb(185, 185, 185); paint-order: stroke;"/>
+      <path d="M0.5,14.5 L690.242676,14.5" id="Line" stroke-linecap="square" style="stroke: rgb(185, 185, 185);"/>
+    </g>
+    <rect id="screen" fill="#FFFFFF" x="95" y="39" width="501.073853" height="292.009" style="stroke: rgb(185, 185, 185);"/>
+    <path d="M421,352 L421,355.087 C421,357.288 416.666719,357.952714 413.386719,357.952714 L278.815286,357.952714 C275.364286,357.952714 271,357.289 271,355.087 L271,352" id="touchpad" style="stroke: rgb(185, 185, 185); fill: rgb(185, 185, 185);"/>
+  </g>
+  <g id="iphone" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 575.9999999999999, 177)" stroke="#7E89A3" stroke-width="1" fill="none" fill-rule="evenodd"/>
+</svg>
