@@ -1,5 +1,5 @@
 //
-// Default is for screens under 800px
+// Default is for screens under 600px
 //
 
 body {
@@ -107,7 +107,7 @@ nav ul {
 }
 
 figcaption {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   color: $main-text-color;
   background: $body-background-color;
@@ -116,6 +116,7 @@ figcaption {
 .categories-list li {
   display: inline-block;
   font-size: $small-font-size;
+  padding: 0 4px;
 }
 
 //
@@ -156,8 +157,8 @@ footer {
     min-height: 500px;
   }
 
-  figure img {
-    border-radius: 4px;
+  figcaption {
+    margin-top: 50px;
   }
 
   footer {
@@ -169,5 +170,9 @@ footer {
 @media (min-width: 1000px) {
   .appledrop {
     display: inline;
+  }
+
+  figcaption {
+    margin-top: 50px;
   }
 }
