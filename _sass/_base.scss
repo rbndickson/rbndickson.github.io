@@ -8,17 +8,6 @@ body {
 
 p {
   padding: 6px 0;
-
-  a:link,
-  a:visited {
-    color: inherit;
-    text-decoration: underline;
-  }
-
-  a:hover {
-    color: $highlight-color-1;
-    text-decoration: underline;
-  }
 }
 
 h2,
@@ -41,10 +30,13 @@ h2 {
 }
 
 a:link,
-a:visited,
-a:hover {
-  color: inherit;
+a:visited {
+  color: $link-color;
   text-decoration: inherit;
+}
+
+a:hover {
+  color: $highlight-color-2;
 }
 
 .light-mono-text {
@@ -68,7 +60,7 @@ a:hover {
 
   > svg:hover {
     path {
-      fill: $nav-link-color;
+      fill: $link-color;
     }
   }
 }

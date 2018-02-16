@@ -46,7 +46,7 @@ nav ul {
     display: inline-block;
     padding: 15px 20px 15px 0;
     font-size: 18px;
-    color: $nav-link-color;
+    color: $link-color;
   }
 
   a {
@@ -132,7 +132,7 @@ footer {
   a,
   a:link,
   a:visited {
-    color: $nav-link-color;
+    color: $link-color;
     transition: color 0.25s ease-in-out;
   }
 
