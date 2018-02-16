@@ -5,7 +5,9 @@ layout: default
   {% for project in site.projects reversed %}
     <li class="project-list-item">
       <figure class="project-list-figure {{ project.platform }}">
+        <a href="{{ project.url | prepend: site.baseurl }}">
           <img class="project-list-image {{ project.platform }}" src="/images/{{ project.img }}.png">
+        </a>
         <figcaption>
           <h2><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
           <ul class="categories-list">
