@@ -8,36 +8,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
-$white:                 #fff;
-$blue1:                 #4fbffc;
-$blue2:                 #68d5fd;
-$blue3:                 #7de4fd;
-$blue-black:            #2f4858;
-$weak-blue-black:       #c0c8cc;
-$very-light-blue:       #e1eff6;
-
-$body-background-color: $white;
-$main-text-color:       $blue-black;
-$title-text-color:      $blue-black;
-$link-color:        $blue1;
-$card-background-color: $blue1;
-$card-border-color:     $very-light-blue;
-$card-text-color:       $blue-black;
-$highlight-color-1:     $blue1;
-$highlight-color-2:     $blue2;
-$highlight-color-3:     $blue3;
-
-$base-font-family:      "Open Sans", Arial, sans-serif;
-$mono-font-family:      Monaco, Consolas, "Lucida Console", monospace;
-$base-font-size:        16px;
-$base-font-weight:      400;
-$small-font-size:       $base-font-size * 0.875;
-$base-line-height:      1.5;
-
-$heading-font-family:   Raleway, Arial, sans-serif;
-
 // Import partials from `_sass`
 @import "resets";
+@import "variables";
 @import "base";
 @import "layout";
 @import "project";
