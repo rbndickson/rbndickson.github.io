@@ -66,15 +66,8 @@ footer {
   color: $weak-blue-black;
   text-align: center;
 
-  a,
-  a:link,
-  a:visited {
-    color: $link-color;
-    transition: color 0.25s ease-in-out;
-  }
-
   a:hover {
-    color: $highlight-color-2;
+    background-size: 100% 1px;
   }
 }
 
