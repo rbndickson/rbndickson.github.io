@@ -2,49 +2,6 @@
   margin: 20px 0 40px 0;
 }
 
-.project-list-figure {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.project-list-image {
-  box-sizing: border-box;
-  border-radius: 0;
-}
-
-.project-list-figure.web {
-  max-width: 500px;
-  max-height: 340px;
-  margin: 0 50px;
-  background-image: url("/images/laptop_700_400.svg");
-}
-
-.project-list-image.web {
-  width: 71.4%;
-  height: 41.4%;
-  margin: 6.9% 0 0 14.2%;
-}
-
-.project-list-figure.mobile {
-  max-width: 500px;
-  max-height: 400px;
-  margin: 0 50px;
-  background-image: url("/images/mobile_140_280.svg");
-}
-
-.project-list-image.mobile {
-  width: 20%;
-  height: 44.6%;
-  margin: 7.1% 0 0 40%;
-}
-
-figcaption {
-  margin-top: 30px;
-  text-align: center;
-  color: $main-text-color;
-  background: $body-background-color;
-}
-
 .categories-list li {
   display: inline-block;
   font-size: $small-font-size;

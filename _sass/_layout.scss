@@ -94,10 +94,6 @@ footer {
     min-height: 500px;
   }
 
-  figcaption {
-    margin-top: 50px;
-  }
-
   footer {
     margin: 30px 0 20px 0;
     font-size: 0.786em;
@@ -107,9 +103,5 @@ footer {
 @media (min-width: 1000px) {
   .appledrop {
     display: inline;
-  }
-
-  figcaption {
-    margin-top: 50px;
   }
 }

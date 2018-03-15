@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+
+
 <article>
-  <figure class="project-list-figure {{ page.platform }}">
-    <img class="project-list-image {{ page.platform }}" src="/images/{{ page.img }}.png">
+  {% if page.platform == 'web' %}
+    <figure class="laptop-background">
+  {% else %}
+    <figure class="smartphone-background">
+  {% endif %}
+    <img src="/images/{{ page.img }}.png">
 
     <figcaption>
       <h2>{{ page.title }}</h2>
