@@ -27,6 +27,10 @@ h2 {
   font-size: 1.23rem;
 }
 
+a {
+  transition: color 0.25s ease-in-out;
+}
+
 a:link,
 a:visited {
   color: $link-color;
