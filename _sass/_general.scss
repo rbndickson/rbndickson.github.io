@@ -1,0 +1,19 @@
+.icon {
+  > svg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+    path {
+      transition: fill 0.25s ease-in-out;
+      fill: $main-text-color;
+    }
+  }
+
+  > svg:hover {
+    path {
+      fill: $link-color;
+    }
+  }
+}

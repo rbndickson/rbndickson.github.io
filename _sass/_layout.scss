@@ -5,6 +5,8 @@
 body {
   max-width: 600px;
   margin: auto;
+  overflow-y: scroll;
+  background: $body-background-color;
 }
 
 .tricolor-bar {

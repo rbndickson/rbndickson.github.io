@@ -1,9 +1,7 @@
 body {
-  overflow-y: scroll;
   font: $base-font-weight #{$small-font-size}/#{$base-line-height}
     $base-font-family;
   color: $main-text-color;
-  background: $body-background-color;
 }
 
 p {
@@ -43,26 +41,6 @@ a:hover {
   font-family: $mono-font-family;
   font-size: $small-font-size;
   opacity: 0.6;
-}
-
-.icon {
-  > svg {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-
-    path {
-      transition: fill 0.25s ease-in-out;
-      fill: $main-text-color;
-    }
-  }
-
-  > svg:hover {
-    path {
-      fill: $link-color;
-    }
-  }
 }
 
 @media (min-width: 800px) {
