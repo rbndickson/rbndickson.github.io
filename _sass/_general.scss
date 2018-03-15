@@ -1,3 +1,16 @@
+hr {
+  height: 2px;
+  background-image: linear-gradient(
+    90deg,
+    $white,
+    $blue2,
+    $violet,
+    $blue2,
+    $white
+  );
+  border: 0;
+}
+
 .icon {
   > svg {
     display: inline-block;
