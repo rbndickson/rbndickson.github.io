@@ -58,7 +58,46 @@ a:hover,
   background-position: bottom;
 }
 
-.emoji-link:hover,
+a.emoji-link {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, $link-color, $link-hover-color);
+  background-size: 300% 300%;
+  background-position: 0 50%;
+}
+
+a.emoji-link:hover {
+  -webkit-animation: HorizontalSlide 0.25s;
+  -moz-animation: HorizontalSlide 0.25s;
+  animation: HorizontalSlide 0.25s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes HorizontalSlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@-moz-keyframes HorizontalSlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes HorizontalSlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .image-link:hover {
   background: none;
 }
