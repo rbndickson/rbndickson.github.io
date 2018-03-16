@@ -9,27 +9,9 @@ body {
   background: $body-background-color;
 }
 
-.tricolor-bar {
+.mobile-top-bar {
   height: 4px;
-
-  div {
-    float: left;
-    width: 33.33%;
-    height: 4px;
-    padding: 0;
-  }
-
-  div:nth-child(1) {
-    background: $highlight-color-1;
-  }
-
-  div:nth-child(2) {
-    background: $highlight-color-2;
-  }
-
-  div:nth-child(3) {
-    background: $highlight-color-3;
-  }
+  background-image: linear-gradient($highlight-color-1, $highlight-color-2);
 }
 
 .main-container {
@@ -75,7 +57,7 @@ footer {
 // On large screens
 //
 @media (min-width: 600px) {
-  .tricolor-bar {
+  .mobile-top-bar {
     display: none;
   }
 
