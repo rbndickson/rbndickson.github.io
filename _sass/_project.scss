@@ -1,7 +1,22 @@
 .site-links li {
   display: inline-block;
-  font-family: $mono-font-family;
   font-size: $small-font-size;
+}
+
+a.button {
+  border-radius: 20px;
+  padding: 3px 8px;
+  background-color: $link-color;
+  background-image: linear-gradient($link-hover-color, $link-hover-color);
+  background-size: 100% 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  transition: all 0.15s;
+}
+
+a.button:hover {
+  background-size: 100% 100%;
 }
 
 .project-content {

@@ -15,10 +15,10 @@ layout: default
       <h2>{{ page.title }}</h2>
       <ul class="site-links">
         {% if page.demo %}
-          <li><a href="{{ page.demo }}">[VIEW SITE]</a></li>
+          <li><a class="button" href="{{ page.demo }}">Open Site</a></li>
         {% endif %}
         {% if page.repository %}
-          <li><a href="{{ page.repository }}">[VIEW CODE]</a></li>
+          <li><a class="button" href="{{ page.repository }}">View Code</a></li>
         {% endif %}
       </ul>
       <h3>{{ page.created_in }}</h3>
