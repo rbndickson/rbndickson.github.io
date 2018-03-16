@@ -3,7 +3,7 @@ email: robindickson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Robin Dickson's projects and suchlike
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rbndickson.github.io" # the base hostname & protocol for your site
+url: "http://rbndickson.tech" # the base hostname & protocol for your site
 
 markdown: kramdown
 
