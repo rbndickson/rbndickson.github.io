@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
 <html>
-  <div class="tricolor-bar">
-    <div></div><div></div><div></div>
-  </div>
-  <div class="main-container">
-    {% include head.html %}
-    <body>
+  {% include head.html %}
+  <body>
+    <div class="tricolor-bar">
+      <div></div><div></div><div></div>
+    </div>
+    <div class="main-container">
       {% include header.html %}
       <main>
         {{ content }}
       </main>
-    </body>
-    <footer>
-      Made with <a href="https://jekyllrb.com/">Jekyll</a> | <a href="https://github.com/rbndickson/rbndickson.github.io">Code</a>
-    </footer>
-  </div>
+      <footer>
+        Made with <a href="https://jekyllrb.com/">Jekyll</a> | <a href="https://github.com/rbndickson/rbndickson.github.io">Code</a>
+      </footer>
+    </div>
+  </body>
 </html>
