@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 <article>
   {% if page.platform == 'web' %}
     <figure class="laptop-background">
@@ -13,17 +11,18 @@ layout: default
 
     <figcaption>
       <h2>{{ page.title }}</h2>
-      <ul class="site-links">
-        {% if page.demo %}
-          <li><a class="button" href="{{ page.demo }}">Open Site</a></li>
-        {% endif %}
-        {% if page.repository %}
-          <li><a class="button" href="{{ page.repository }}">View Code</a></li>
-        {% endif %}
-      </ul>
-      <h3>{{ page.created_in }}</h3>
     </figcaption>
   </figure>
+
+  <ul class="site-links">
+    {% if page.demo %}
+      <li><a class="button" href="{{ page.demo }}">Open Site</a></li>
+    {% endif %}
+
+    {% if page.repository %}
+      <li><a class="button" href="{{ page.repository }}">View Code</a></li>
+    {% endif %}
+  </ul>
 
   <section class="project-content">
     {{ content }}

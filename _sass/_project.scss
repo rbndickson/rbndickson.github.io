@@ -1,7 +1,11 @@
-.site-links li {
-  display: inline-block;
-  font-size: $small-font-size;
-  margin: 15px 0;
+.site-links {
+  display: flex;
+  justify-content: center;
+
+  li {
+    font-size: $small-font-size;
+    margin: 14px 5px;
+  }
 }
 
 a.button {
