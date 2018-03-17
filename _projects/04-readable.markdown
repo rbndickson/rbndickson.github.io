@@ -6,7 +6,7 @@ img: readable
 demo: http://rbn-readable.herokuapp.com
 repository: http://github.com/rbndickson/udacity-readable-project
 date: 2017-09-01 10:10:10 +0100
-categories: React Redux
+technologies: React Redux
 platform: web
 ---
 A reddit style message board built with React and Redux as a project for Udacity's [React Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019).
