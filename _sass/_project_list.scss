@@ -2,8 +2,13 @@
   margin: 20px 0 40px 0;
 }
 
-.categories-list li {
-  display: inline-block;
-  font-size: $small-font-size;
-  padding: 0 4px;
+.categories-list {
+  display: flex;
+  justify-content: center;
+
+  li {
+    display: inline-block;
+    font-size: $small-font-size;
+    padding: 6px;
+  }
 }
