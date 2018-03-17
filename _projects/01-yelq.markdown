@@ -6,12 +6,11 @@ img: yelq
 demo: http://yelq.herokuapp.com
 repository: http://github.com/rbndickson/yelq
 date: 2015-10-01 10:10:10 +0100
-categories: Rails RSpec TDD
+categories:
+  - Ruby on Rails
 platform: web
 ---
 A Yelp clone created to practice Rails and TDD.
-
----
 
 ## Features:
 
@@ -23,12 +22,6 @@ A Yelp clone created to practice Rails and TDD.
 - Business reviews
 - Unit and feature tests
 
-## Technologies:
+## Techn:
 
-- Rails
-- RSpec
-- Capybara
-- PostgreSQL
-- HAML
-- Bootstrap
-- Heroku
+Rails, RSpec, Capybara, PostgreSQL, HAML, Bootstrap

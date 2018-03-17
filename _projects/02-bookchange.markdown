@@ -6,7 +6,8 @@ img: bookchange
 demo: http://bookchange.herokuapp.com
 repository: http://github.com/rbndickson/bookchange
 date: 2016-01-01 10:10:10 +0100
-categories: Rails Rspec APIs TDD
+categories:
+ - Ruby on Rails
 platform: web
 ---
 A book exchange built to practice TDD, RSpec, using external APIs and Continuous Integration.
