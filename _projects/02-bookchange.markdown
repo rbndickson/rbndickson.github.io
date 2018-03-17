@@ -6,6 +6,7 @@ img: bookchange
 demo: http://bookchange.herokuapp.com
 repository: http://github.com/rbndickson/bookchange
 date: 2016-01-01 10:10:10 +0100
+summary: A Book Exchange with a Double Opt-in System
 technologies:
   - Ruby on Rails
 platform: web

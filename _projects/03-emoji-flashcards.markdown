@@ -5,6 +5,7 @@ slug: emoji-flashcards
 img: emoji-flashcards
 demo: http://emojiflashcards.com
 date: 2017-11-01 10:10:10 +0100
+summary: Web Application to Create Teaching Resources from Emoji
 technologies:
   - Ruby on Rails
   - React

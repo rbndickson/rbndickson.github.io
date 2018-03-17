@@ -6,6 +6,7 @@ img: readable
 demo: http://rbn-readable.herokuapp.com
 repository: http://github.com/rbndickson/udacity-readable-project
 date: 2017-09-01 10:10:10 +0100
+summary: Udacity Project - A Votable Message Board
 technologies: React Redux
 platform: web
 ---
