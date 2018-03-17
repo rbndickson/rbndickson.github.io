@@ -11,6 +11,3 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug/
-  games:
-    output: true
-    permalink: /games/:slug/
