@@ -9,7 +9,7 @@ permalink: /about/
 
 👨‍💻 Coding and teaching from locations worldwide
 
-🇻🇳 Currently in Vietnam
+🇹🇭 Currently in Chiang Mai, Thailand
 
 📱 Studied React & React Native with <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a>
 
