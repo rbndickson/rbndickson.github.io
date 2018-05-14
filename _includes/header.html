@@ -1,12 +1,6 @@
-{% assign about_class = '' %}
-{% assign project_class = 'current-page' %}
-
-{% if page.url contains 'about' %}
-  {% assign about_class = 'current-page' %}
-  {% assign project_class = '' %}
-{% elsif page.url contains 'projects' %}
-  {% assign project_class = '' %}
-{% endif %}
+{% assign about_class = '' %} {% assign project_class = 'current-page' %} {% if page.url contains 'about' %} {% assign about_class
+= 'current-page' %} {% assign project_class = '' %} {% elsif page.url contains 'projects' %} {% assign project_class = ''
+%} {% endif %}
 
 <header class="main-header">
   <h1>
@@ -16,10 +10,14 @@
   </h1>
   <nav>
     <ul>
-      <li><a href="/" class={{project_class}}>Projects</a></li>
-      <li><a href="/about" class={{about_class}}>About</a></li>
       <li>
-        <a class="emoji-link" href="/rps" title="Rock, paper, scissors" target="_blank">✋</a>
+        <a href="/" class={{project_class}}>Projects</a>
+      </li>
+      <li>
+        <a href="/about" class={{about_class}}>About</a>
+      </li>
+      <li>
+        <a href="/rps" title="Rock, paper, scissors" target="_blank">&#9996;&#65039;</a>
       </li>
     </ul>
   </nav>
