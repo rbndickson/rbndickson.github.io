@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Emoji Flashcards
 slug: emoji-flashcards
 img: emoji-flashcards

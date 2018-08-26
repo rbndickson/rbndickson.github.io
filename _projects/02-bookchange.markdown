@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Bookchange
 slug: bookchange
 img: bookchange

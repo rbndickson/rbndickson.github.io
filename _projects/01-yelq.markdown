@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Yelq
 slug: yelq
 img: yelq

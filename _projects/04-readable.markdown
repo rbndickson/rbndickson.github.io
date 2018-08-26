@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Readable
 slug: readable
 img: readable

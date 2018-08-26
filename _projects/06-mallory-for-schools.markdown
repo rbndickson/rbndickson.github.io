@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Mallory for Schools
 slug: mallory-for-schools
 img: mallory-for-schools

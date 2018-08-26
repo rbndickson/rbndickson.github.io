@@ -1,6 +1,13 @@
-{% assign about_class = '' %} {% assign project_class = 'current-page' %} {% if page.url contains 'about' %} {% assign about_class
-= 'current-page' %} {% assign project_class = '' %} {% elsif page.url contains 'projects' %} {% assign project_class = ''
-%} {% endif %}
+{% assign about_class = '' %}
+{% assign project_class = '' %}
+
+{% if page.ref == 'index' %}
+  {% assign project_class = 'current-page' %}
+{% endif %}
+
+{% if page.ref == 'about' %}
+  {% assign about_class = 'current-page' %}
+{% endif %}
 
 <header class="main-header">
   <h1>
@@ -11,10 +18,10 @@
   <nav>
     <ul>
       <li>
-        <a href="/" class={{project_class}}>Projects</a>
+        <a href={{ site.url | append: site.index[page.lang] }} class={{project_class}}>{{ site.t[page.lang].projects }}</a>
       </li>
       <li>
-        <a href="/about" class={{about_class}}>About</a>
+        <a href={{ site.url | append: site.about[page.lang] }} class={{about_class}}>{{ site.t[page.lang].about }}</a>
       </li>
       <li>
         <a href="/rps" title="Rock, paper, scissors" target="_blank">&#9996;&#65039;</a>

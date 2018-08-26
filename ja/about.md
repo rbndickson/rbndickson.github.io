@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: 情報
 ref: about
-lang: en
+lang: ja
 ---
 <div>
   <img class='about-image' src="/images/rbn_and_selina_square.jpg">
@@ -10,7 +10,7 @@ lang: en
 
 👨‍💻 Coding and teaching from locations worldwide
 
-🇹🇭 Currently in Chiang Mai, Thailand
+🇹🇭 Currently in Chiang Mai, タイ
 
 📱 Studied React & React Native with <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a>
 
