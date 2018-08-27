@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 
 <html>
-  {% include head.html %}
-  <body>
-    <div class="mobile-top-bar"></div>
-    <div class="main-container">
-      {% include header.html %}
-      <main>
-        {{ content }}
-      </main>
-      <footer>
-        Made with <a href="https://jekyllrb.com/">Jekyll</a> | <a href="https://github.com/rbndickson/rbndickson.github.io">Code</a>
-      </footer>
-    </div>
-  </body>
+{% include head.html %}
+
+<body>
+  <div class="mobile-top-bar"></div>
+  <div class="main-container">
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    <footer class="small-font light-font">
+      Made with
+      <a href="https://jekyllrb.com/">Jekyll</a> |
+      <a href="https://github.com/rbndickson/rbndickson.github.io">Code</a>
+    </footer>
+  </div>
+</body>
+
 </html>
