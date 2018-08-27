@@ -5,7 +5,8 @@ lang: en
 ---
 
 <ul>
-  {% for project in site.projects reversed %}
+  {% assign projects = site.projects | where:"lang", page.lang %}
+  {% for project in projects reversed %}
     <li class="project-list-item">
       {% if project.platform == 'web' %}
         <figure class="laptop-background">
