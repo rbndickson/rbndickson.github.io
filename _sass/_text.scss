@@ -59,6 +59,14 @@ a:hover,
   background-position: bottom;
 }
 
+.language-selector {
+  font-size: $small-font-size;
+
+  a:hover {
+    background-size: 100% 1px;
+  }
+}
+
 @-webkit-keyframes HorizontalSlide {
   0% {
     background-position: 0% 50%;
