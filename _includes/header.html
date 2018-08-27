@@ -9,6 +9,24 @@
   {% assign about_class = 'current-page' %}
 {% endif %}
 
+{% assign en_href = site.url | append: page.url %}
+{% assign ja_href = site.url | append: page.url %}
+
+{% if page.lang == 'en' %}
+  {% if page.layout == 'project' %}
+    {% assign ja_href = ja_href | replace: 'projects/', 'projects/ja-' %}
+  {% else %}
+    {% assign site_url_and_ja = site.url | append: '/ja' %}
+    {% assign ja_href = ja_href | replace: site.url, site_url_and_ja %}
+  {% endif %}
+{% else %}
+  {% if page.layout == 'project' %}
+    {% assign en_href = en_href | remove: 'ja-' %}
+  {% else %}
+    {% assign en_href = en_href | remove: 'ja/' %}
+  {% endif %}
+{% endif %}
+
 <header class="main-header">
   <h1>
     <a class="header-text" href='/'>
@@ -28,4 +46,8 @@
       </li>
     </ul>
   </nav>
+  <ul>
+    <li><a href={{ en_href }}>English</a></li>
+    <li><a href={{ ja_href }}>日本語</a></li>
+  </ul>
 </header>
