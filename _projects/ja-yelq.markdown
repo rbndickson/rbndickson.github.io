@@ -18,12 +18,12 @@ This was the first site I built with Ruby on Rails in August 2015, around 6 mont
 
 ## 機能
 
-👩‍💻 User sign up and log in  
-👤 User profiles  
-🏬 Business profiles  
-➕ Add businesses  
-🔍 Search businesses by name, location or both  
-🕵 Business reviews by users  
+👩‍💻 認証  
+👤 ユーザープロフィール  
+🏬 ビジネスプロフィール  
+➕ ビジネス追加  
+🔍 名前・ロケーションでビジネスを検索  
+🕵 ユーザーレビュー  
 
 ---
 

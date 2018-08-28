@@ -16,10 +16,10 @@ A React Native flashcard application built for the Udacity React Native Nanodegr
 
 ## 機能
 
-🗂 Create flashcard decks  
-➕ Add flashcards to decks  
-❓ Flashcard review  
-🗺 Navigation implemented using React Navigator  
+🗂 フラッシュカードデッキ追加  
+➕ フラッシュカード追加  
+❓ フラッシュカード復習  
+🗺 React Navigatorでナビゲート  
 
 ---
 

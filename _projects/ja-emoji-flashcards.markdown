@@ -19,14 +19,16 @@ Resources are available in English, German, Korean and Spanish. User authenticat
 
 ## 機能
 
-👤 Admin and Editor user roles  
-🌎 English, German, Korean and Spanish materials  
-🖨 Printable flashcards  
-🗂 Flashcards grouped by categories and collections  
-📘 Picture dictionaries  
-❓ Vocabulary quiz  
-📱 Responsive design  
-📝 Tested with RSpec  
+🔑 認証  
+👤 ユーザープロフィール  
+👥 Admin・Editorユーザーロール  
+🌎 英語・ドイツ語・スペイン語・韓国語の語彙  
+🖨 フラッシュカードの印刷  
+🗂 カテゴリーとコレクションでナビゲート   
+📘 ピクチャー・ディクショナリー  
+❓ フラッシュカードQuiz  
+📱 レスポンシブウェブデザイン  
+📝 RSpecでテスト  
 
 ---
 

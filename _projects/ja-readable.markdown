@@ -19,11 +19,11 @@ The frontend was built by myself and interacts with a backend server provided by
 
 ## 機能
 
-📝 Create, edit and delete posts and comments  
-🗳 Vote on posts and comments  
-⬇️ Sort posts by date or score  
-🗂 Filter posts by category  
-🗺 Routing with react-router  
+📝 投稿・コメント追加・編集・削除  
+🗳 投稿・コメント投票  
+⬇️ 日・スコアで並べ替え  
+🗂 カテゴリーでフィルタ  
+🗺 React Routerでナビゲート  
 
 ---
 

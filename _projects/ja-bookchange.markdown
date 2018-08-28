@@ -20,19 +20,19 @@ The users then choose which book they would like to receive and add the address 
 
 ## 機能
 
-🔑 Authentication & password reset  
-👤 User profiles  
-📚 User library  
-➕ Add books using ISBN with <a href="https://developers.google.com/books/docs/v1/using">Google Books</a> & <a href="http://xisbn.worldcat.org/xisbnadmin/doc/api.htm">Worldcat</a> APIs  
-🔍 Search  
-📗 User Wantlist  
-↔️ User Wantlist matching  
-📦 Exchange processing  
-🗣 User feedback  
-🔔 Notifications  
-📱 Responsive design  
-📝 Unit and feature tests  
-🖥 Development, Staging and Production Environments  
+🔑 認証とパスワードリセット  
+👤 ユーザープロフィール  
+📚 ユーザーライブラリ  
+➕ ISBN番号で本を検索（<a href="https://developers.google.com/books/docs/v1/using">Google Books</a>と<a href="http://xisbn.worldcat.org/xisbnadmin/doc/api.htm">Worldcat</a>のAPI）  
+🔍 検索  
+📗 ユーザーのほしい物リスト  
+↔️ ユーザーのほしい物リストで本を交換するマッチ  
+📦 本交換  
+🗣 ユーザーフィードバック  
+🔔 お知らせ  
+📱 レスポンシブウェブデザイン  
+📝 単体テストと受入試験  
+🖥 プロダクション・ステージング・プロダクション環境  
 
 ---
 
