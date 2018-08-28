@@ -19,8 +19,8 @@ This was the first site I built with Ruby on Rails in August 2015, around 6 mont
 ## 機能
 
 👩‍💻 認証  
-👤 ユーザープロフィール  
-🏬 ビジネスプロフィール  
+👤 ユーザーロファイル  
+🏬 ビジネスロファイル  
 ➕ ビジネス追加  
 🔍 名前・ロケーションでビジネスを検索  
 🕵 ユーザーレビュー  

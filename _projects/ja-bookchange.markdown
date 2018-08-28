@@ -21,7 +21,7 @@ The users then choose which book they would like to receive and add the address 
 ## 機能
 
 🔑 認証とパスワードリセット  
-👤 ユーザープロフィール  
+👤 ユーザープロファイル  
 📚 ユーザーライブラリ  
 ➕ ISBN番号で本を検索（<a href="https://developers.google.com/books/docs/v1/using">Google Books</a>と<a href="http://xisbn.worldcat.org/xisbnadmin/doc/api.htm">Worldcat</a>のAPI）  
 🔍 検索  
