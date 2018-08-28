@@ -24,6 +24,10 @@ t:
   en:
     projects: "Projects"
     about: "About"
+    open_site: "Open Site"
+    view_code: "View Code"
   ja:
     projects: "プロジェクト"
     about: "情報"
+    open_site: "サイトを開く"
+    view_code: "コードを閲覧"
