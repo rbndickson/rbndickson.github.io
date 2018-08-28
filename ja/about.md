@@ -8,14 +8,14 @@ lang: ja
   <img class='about-image' src="/images/rbn_and_selina_square.jpg">
 </div>
 
-👨‍💻 Coding and teaching from locations worldwide
+👨‍💻 世界の色んな街でプログラミングをして、英語を教えています。
 
-🇹🇭 Currently in Chiang Mai, タイ
+🇹🇭 現在マレーシアにいます。
 
-📱 Studied React & React Native with <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a>
+📱 <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a>でReact・React Nativeを勉強していました。
 
-🚀 Studied Ruby, Rails and JS with <a href="https://launchschool.com">Launchschool
+🚀 <a href="https://launchschool.com">Launchschool</a>でRuby・Rails on Rails・JavaScriptを勉強していました。
 
-🗼 Taught English in elementary and high schools in Tokyo
+🗼 東京の小・中学校と高校で英語を教えていました。
 
-🇯🇵 Studied Japanese to JLPT N2 level
+🇯🇵 2011年に、日本語能力試験N2を合格しました。
