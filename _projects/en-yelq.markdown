@@ -29,4 +29,9 @@ This was the first site I built with Ruby on Rails in August 2015, around 6 mont
 
 ## Built With:
 
-Ruby on Rails, PostgreSQL, RSpec, Capybara, HAML & Bootstrap
+- Ruby on Rails
+- RSpec
+- Capybara
+- PostgreSQL
+- HAML
+- Bootstrap

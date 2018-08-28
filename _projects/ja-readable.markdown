@@ -22,11 +22,15 @@ The frontend was built by myself and interacts with a backend server provided by
 📝 投稿・コメント追加・編集・削除  
 🗳 投稿・コメント投票  
 ⬇️ 日・スコアで並べ替え  
-🗂 カテゴリーでフィルタ  
+🗂 投稿カテゴリーでフィルタ  
 🗺 React Routerでナビゲート  
 
 ---
 
 ## 利用技術
 
-React, Redux, React Router and Milligram
+- React
+- Redux
+- React Router
+- Formik
+- Milligram

@@ -32,4 +32,12 @@ Resources are available in English, German, Korean and Spanish. User authenticat
 
 ## Built With:
 
-Ruby on Rails, React, RSpec, Slim, PostgreSQL, SASS, Semantic UI
+- Ruby on Rails
+- RSpec
+- React
+- Slim
+- PostgreSQL
+- SASS
+- PureCSS
+- Semantic UI
+- Heroku

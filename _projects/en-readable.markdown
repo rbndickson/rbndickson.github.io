@@ -29,4 +29,8 @@ The frontend was built by myself and interacts with a backend server provided by
 
 ## Built With:
 
-React, Redux, React Router and Milligram
+- React
+- Redux
+- React Router
+- Formik
+- Milligram

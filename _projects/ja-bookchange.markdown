@@ -38,4 +38,14 @@ The users then choose which book they would like to receive and add the address 
 
 ## 利用技術
 
-Ruby on Rails, PostgreSQL, RSpec, Capybara, HAML, SASS, Bootstrap, Elasticsearch, Puma, Sidekiq, CircleCI
+- Ruby on Rails
+- PostgreSQL
+- RSpec
+- Capybara
+- HAML
+- SASS
+- Bootstrap
+- Elasticsearch
+- Puma
+- Sidekiq
+- CircleCI

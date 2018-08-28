@@ -25,4 +25,6 @@ A React Native flashcard application built for the Udacity React Native Nanodegr
 
 ## Built With:
 
-React Native, Redux and Expo
+- React Native
+- Redux
+- Expo
