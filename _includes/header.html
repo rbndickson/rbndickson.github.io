@@ -30,15 +30,19 @@
 <header class="main-header">
   <div class="language-selector small-font">
     <ul>
-      <li><a href={{ en_href }}>English</a></li>
-      <li><a href={{ ja_href }}>日本語</a></li>
+      {% if page.lang == 'ja' %}
+        <li><a lang="en" class="japanese-font" href={{ en_href }}>English</a></li>
+      {% else %}
+        <li><a lang="en" href={{ en_href }}>English</a></li>
+      {% endif %}
+      <li><a lang="ja" href={{ ja_href }}>日本語</a></li>
     </ul>
   </div>
   <h1>
-    <a class="header-text" href='/'>
+    <a lang="en" class="header-text" href='/'>
       {% if page.lang == 'ja' %}
         <ruby>
-          <rb lang="en">Robin Dickson</rb>
+          <rb>Robin Dickson</rb>
           <rt lang="ja" class="light-font">ロビン ディクソン</rt>
         </ruby>
       {% else %}  

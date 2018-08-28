@@ -1,7 +1,18 @@
 body {
-  font: $base-font-weight #{$small-font-size}/#{$base-line-height}
-    $base-font-family;
+  font-family: $base-font-family;
+  font-size: $small-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
   color: $main-text-color;
+}
+
+:lang(en) {
+  font-family: $base-font-family;
+}
+
+:lang(ja),
+.japanese-font {
+  font-family: $japanese-font-family;
 }
 
 p {
@@ -12,19 +23,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {  
   font-weight: $base-font-weight;
 }
 
 h1 {
-  font-family: $heading-font-family;
-  font-size: 28px;
-  font-weight: 500;
   padding: 10px 0 0 0;
-
+  
   a.header-text,
   a.header-text:visited,
   a.header-text:hover {
+    font-family: $heading-font-family;
+    font-size: 28px;
+    font-weight: 500;
     cursor: pointer;
     color: $main-text-color;
     background: none;
