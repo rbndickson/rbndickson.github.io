@@ -16,7 +16,7 @@ A Tealeaf Academy project to build a Yelp inspired site using Ruby on Rails and 
 
 This was the first site I built with Ruby on Rails in August 2015, around 6 months after starting studying web development.
 
-## Features:
+## 機能
 
 👩‍💻 User sign up and log in  
 👤 User profiles  
@@ -27,6 +27,6 @@ This was the first site I built with Ruby on Rails in August 2015, around 6 mont
 
 ---
 
-## Built With:
+## 利用技術
 
 Ruby on Rails, PostgreSQL, RSpec, Capybara, HAML & Bootstrap

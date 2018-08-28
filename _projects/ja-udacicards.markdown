@@ -14,7 +14,7 @@ platform: mobile
 ---
 A React Native flashcard application built for the Udacity React Native Nanodegree.
 
-## Features:
+## 機能
 
 🗂 Create flashcard decks  
 ➕ Add flashcards to decks  
@@ -23,6 +23,6 @@ A React Native flashcard application built for the Udacity React Native Nanodegr
 
 ---
 
-## Built With:
+## 利用技術
 
 React Native, Redux and Expo

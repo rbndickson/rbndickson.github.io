@@ -18,7 +18,7 @@ Books are exchanged using a double opt-in system. Users add unlimited books to t
 
 The users then choose which book they would like to receive and add the address for it to be sent. When they receive the book they update the exchange status and provide feedback.
 
-## Features:
+## 機能
 
 🔑 Authentication & password reset  
 👤 User profiles  
@@ -36,6 +36,6 @@ The users then choose which book they would like to receive and add the address 
 
 ---
 
-## Built With:
+## 利用技術
 
 Ruby on Rails, PostgreSQL, RSpec, Capybara, HAML, SASS, Bootstrap, Elasticsearch, Puma, Sidekiq, CircleCI

@@ -17,7 +17,7 @@ A reddit style message board built with Redux for the Udacity [React Nanodegree]
 
 The frontend was built by myself and interacts with a backend server provided by Udacity.
 
-## Features:
+## 機能
 
 📝 Create, edit and delete posts and comments  
 🗳 Vote on posts and comments  
@@ -27,6 +27,6 @@ The frontend was built by myself and interacts with a backend server provided by
 
 ---
 
-## Built With:
+## 利用技術
 
 React, Redux, React Router and Milligram

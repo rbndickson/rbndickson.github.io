@@ -17,7 +17,7 @@ An ongoing project to create language teaching and learning resources from emoji
 
 Resources are available in English, German, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
 
-## Features:
+## 機能
 
 👤 Admin and Editor user roles  
 🌎 English, German, Korean and Spanish materials  
@@ -30,6 +30,6 @@ Resources are available in English, German, Korean and Spanish. User authenticat
 
 ---
 
-## Built With:
+## 利用技術
 
 Ruby on Rails, React, RSpec, Slim, PostgreSQL, SASS, Semantic UI
