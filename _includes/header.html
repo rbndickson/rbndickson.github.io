@@ -36,7 +36,14 @@
   </div>
   <h1>
     <a class="header-text" href='/'>
-      Robin Dickson
+      {% if page.lang == 'ja' %}
+        <ruby>
+          <rb lang="en">Robin Dickson</rb>
+          <rt lang="ja" class="light-font">ロビン ディクソン</rt>
+        </ruby>
+      {% else %}  
+        Robin Dickson
+      {% endif %}
     </a>
   </h1>
   <nav>
