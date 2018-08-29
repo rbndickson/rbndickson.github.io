@@ -2,6 +2,7 @@
 layout: page
 title: 情報
 ref: about
+permalink: /ja/about/
 lang: ja
 ---
 <div>
