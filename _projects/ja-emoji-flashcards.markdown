@@ -13,9 +13,11 @@ technologies:
   - Redux
 platform: web
 ---
-An ongoing project to create language teaching and learning resources from emoji using the open source [Twemoji](https://github.com/twitter/twemoji).
+絵文字から印刷を出来るフラッシュカードと教材を作るWebアプリケーションです。
 
-Resources are available in English, German, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
+フラッシュカードと教材は英語・スペイン語・ドイツ語・韓国語で作ることが出来ます。
+
+絵文字はオープンソースの「[Twemoji](https://github.com/twitter/twemoji)」です。
 
 ## 機能
 

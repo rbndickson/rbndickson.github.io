@@ -12,11 +12,14 @@ technologies:
   - Ruby on Rails
 platform: web
 ---
-A book exchange built to solidify skills learned when studying Ruby on Rails, RSpec and using external APIs.
+Ruby on Railsで作られた本の交換サイトです。
 
-Books are exchanged using a double opt-in system. Users add unlimited books to their Wantlist. When users want one or more of each other's books the users are notified of the possible exchange (See [here](http://bookchange.herokuapp.com/learnmore) for further info).
+ユーザー同士の欲しい本がマッチしたら、お互いにお知らせが届きます。
 
-The users then choose which book they would like to receive and add the address for it to be sent. When they receive the book they update the exchange status and provide feedback.
+そのあと、お互いが相手の本のリストの中から一冊だけ本を選びます。そして、お互いの欲しい本を送り合います。
+本が手元に来たら、交換し合った本のステイタスのアップデートをして、相手にフィードバックを書きます。
+
+[英語で詳しく説明](http://bookchange.herokuapp.com/learnmore)
 
 ## 機能
 

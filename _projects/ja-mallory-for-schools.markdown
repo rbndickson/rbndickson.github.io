@@ -6,9 +6,11 @@ slug: ja-mallory-for-schools
 img: mallory-for-schools
 demo: http://malloryforschools.com
 date: 2017-01-01 10:10:10 +0100
-summary: Freelance Project - A Static Site with CMS
+summary: 会社のサービスを紹介するウェブサイト
 technologies:
   - Jekyll
 platform: web
 ---
-A freelance project to design and build a site to showcase the services of Mallory for Schools.
+Mallory for Schoolsのサービスを紹介するウェブサイトです。
+
+フリーランスでウェブサイトをデザインして、開発していました。

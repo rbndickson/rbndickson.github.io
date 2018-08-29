@@ -12,7 +12,9 @@ technologies:
   - Redux
 platform: mobile
 ---
-A React Native flashcard application built for the Udacity React Native Nanodegree.
+スマホのフラッシュカードアプリです。
+
+[Udacity React Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019)の課題で作りました。
 
 ## 機能
 

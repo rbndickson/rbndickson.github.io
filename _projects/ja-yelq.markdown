@@ -12,9 +12,9 @@ technologies:
   - Ruby on Rails
 platform: web
 ---
-A Tealeaf Academy project to build a Yelp inspired site using Ruby on Rails and Test Driven Development.
+Tealeaf Academyの課題でRuby on RailsのYelpのようなレビューWebアプリケーションを作りました。
 
-This was the first site I built with Ruby on Rails in August 2015, around 6 months after starting studying web development.
+このサイトは私が初めて作れたウェブアプリケーションです。2015年6月に作りました。
 
 ## 機能
 
