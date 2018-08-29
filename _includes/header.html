@@ -13,6 +13,7 @@
 {% assign ja_href = site.url | append: page.url %}
 
 {% if page.lang == 'en' %}
+  {% assign home_href = '/' %}
   {% if page.layout == 'project' %}
     {% assign ja_href = ja_href | replace: 'projects/', 'projects/ja-' %}
   {% else %}
@@ -20,6 +21,7 @@
     {% assign ja_href = ja_href | replace: site.url, site_url_and_ja %}
   {% endif %}
 {% else %}
+  {% assign home_href = '/ja/' %}
   {% if page.layout == 'project' %}
     {% assign en_href = en_href | remove: 'ja-' %}
   {% else %}
@@ -39,7 +41,7 @@
     </ul>
   </div>
   <h1>
-    <a lang="en" class="header-text" href='/'>
+    <a lang="en" class="header-text" href={{home_href}}>
       {% if page.lang == 'ja' %}
         <ruby>
           <rb>Robin Dickson</rb>
