@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Bookchange
 slug: bookchange
 img: bookchange
@@ -37,4 +38,14 @@ The users then choose which book they would like to receive and add the address 
 
 ## Built With:
 
-Ruby on Rails, PostgreSQL, RSpec, Capybara, HAML, SASS, Bootstrap, Elasticsearch, Puma, Sidekiq, CircleCI
+- Ruby on Rails
+- PostgreSQL
+- RSpec
+- Capybara
+- HAML
+- SASS
+- Bootstrap
+- Elasticsearch
+- Puma
+- Sidekiq
+- CircleCI

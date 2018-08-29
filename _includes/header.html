@@ -1,20 +1,64 @@
-{% assign about_class = '' %} {% assign project_class = 'current-page' %} {% if page.url contains 'about' %} {% assign about_class
-= 'current-page' %} {% assign project_class = '' %} {% elsif page.url contains 'projects' %} {% assign project_class = ''
-%} {% endif %}
+{% assign about_class = '' %}
+{% assign project_class = '' %}
+
+{% if page.ref == 'index' %}
+  {% assign project_class = 'current-page' %}
+{% endif %}
+
+{% if page.ref == 'about' %}
+  {% assign about_class = 'current-page' %}
+{% endif %}
+
+{% assign en_href = site.url | append: page.url %}
+{% assign ja_href = site.url | append: page.url %}
+
+{% if page.lang == 'en' %}
+  {% assign home_href = '/' %}
+  {% if page.layout == 'project' %}
+    {% assign ja_href = ja_href | replace: 'projects/', 'projects/ja-' %}
+  {% else %}
+    {% assign site_url_and_ja = site.url | append: '/ja' %}
+    {% assign ja_href = ja_href | replace: site.url, site_url_and_ja %}
+  {% endif %}
+{% else %}
+  {% assign home_href = '/ja/' %}
+  {% if page.layout == 'project' %}
+    {% assign en_href = en_href | remove: 'ja-' %}
+  {% else %}
+    {% assign en_href = en_href | remove: 'ja/' %}
+  {% endif %}
+{% endif %}
 
 <header class="main-header">
+  <div class="language-selector small-font">
+    <ul>
+      {% if page.lang == 'ja' %}
+        <li><a lang="en" class="japanese-font" href={{ en_href }}>English</a></li>
+      {% else %}
+        <li><a lang="en" href={{ en_href }}>English</a></li>
+      {% endif %}
+      <li><a lang="ja" href={{ ja_href }}>日本語</a></li>
+    </ul>
+  </div>
   <h1>
-    <a class="header-text" href='/'>
-      Robin Dickson
+    <a lang="en" class="header-text" href={{home_href}}>
+      {% if page.lang == 'ja' %}
+        <ruby>
+          <rb>Robin Dickson</rb>
+          <rt lang="ja" class="light-font">ロビン ディクソン</rt>
+        </ruby>
+      {% else %}  
+        Robin Dickson
+      {% endif %}
     </a>
   </h1>
   <nav>
     <ul>
       <li>
-        <a href="/" class={{project_class}}>Projects</a>
+        <a href={{ site.url | append: site.index[page.lang] }} class={{project_class}}>{{ site.t[page.lang].projects }}</a>
       </li>
       <li>
-        <a href="/about" class={{about_class}}>About</a>
+        <a href={{ site.url | append: site.about[page.lang] }} class={{about_class}}>{{ site.t[page.lang].about }}</a>
       </li>
       <li>
         <a href="/rps" title="Rock, paper, scissors" target="_blank">&#9996;&#65039;</a>

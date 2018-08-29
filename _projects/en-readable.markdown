@@ -1,5 +1,6 @@
 ---
 layout: project
+lang: en
 title: Readable
 slug: readable
 img: readable
@@ -12,9 +13,11 @@ technologies:
   - Redux
 platform: web
 ---
-A reddit style message board built with Redux for the Udacity [React Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019).
+A reddit style message board built with React and Redux for the [Udacity React Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019).
 
 The frontend was built by myself and interacts with a backend server provided by Udacity.
+
+Since finishing the course I refactored the application, improved the styling with Milligram and added Formik to better handle the forms.
 
 ## Features:
 
@@ -28,4 +31,8 @@ The frontend was built by myself and interacts with a backend server provided by
 
 ## Built With:
 
-React, Redux, React Router and Milligram
+- React
+- Redux
+- React Router
+- Formik
+- Milligram
