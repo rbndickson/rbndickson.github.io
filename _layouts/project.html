@@ -16,11 +16,11 @@ layout: default
 
   <ul class="site-links">
     {% if page.demo %}
-      <li><a class="button" href="{{ page.demo }}">{{ site.t[page.lang].open_site }}</a></li>
+      <li><a class="button" href="{{ page.demo }}" target="_blank">{{ site.t[page.lang].open_site }}</a></li>
     {% endif %}
 
     {% if page.repository %}
-      <li><a class="button" href="{{ page.repository }}">{{ site.t[page.lang].view_code }}</a></li>
+      <li><a class="button" href="{{ page.repository }}" target="_blank">{{ site.t[page.lang].view_code }}</a></li>
     {% endif %}
   </ul>
 
