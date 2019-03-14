@@ -5,7 +5,6 @@ title: Bookchange
 slug: ja-bookchange
 img: bookchange
 demo: http://bookchange.herokuapp.com
-repository: http://github.com/rbndickson/bookchange
 date: 2016-01-01 10:10:10 +0100
 summary: 図書交換のWebアプリケーション
 technologies:
