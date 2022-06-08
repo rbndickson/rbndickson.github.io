@@ -38,17 +38,21 @@ body {
 }
 
 //
-// Navigation
+// Main
 //
 
-nav ul {
-  width: 100%;
-  margin-bottom: 20px;
+.about-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
 
-  li {
-    display: inline-block;
-    padding: 15px 20px 15px 0;
-    font-size: 18px;
+section {
+  margin-top: 40px;
+
+  h2 {
+    margin-bottom: 20px;
   }
 }
 

@@ -1,14 +1,3 @@
-{% assign about_class = '' %}
-{% assign project_class = '' %}
-
-{% if page.ref == 'index' %}
-  {% assign project_class = 'current-page' %}
-{% endif %}
-
-{% if page.ref == 'about' %}
-  {% assign about_class = 'current-page' %}
-{% endif %}
-
 {% assign en_href = site.url | append: page.url %}
 {% assign ja_href = site.url | append: page.url %}
 
@@ -52,14 +41,4 @@
       {% endif %}
     </a>
   </h1>
-  <nav>
-    <ul>
-      <li>
-        <a href={{ site.url | append: site.index[page.lang] }} class={{project_class}}>{{ site.t[page.lang].projects }}</a>
-      </li>
-      <li>
-        <a href={{ site.url | append: site.about[page.lang] }} class={{about_class}}>{{ site.t[page.lang].about }}</a>
-      </li>
-    </ul>
-  </nav>
 </header>
