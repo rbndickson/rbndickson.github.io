@@ -127,12 +127,6 @@ a:hover,
   background: none;
 }
 
-.light-mono-text {
-  font-family: $mono-font-family;
-  font-size: $small-font-size;
-  opacity: 0.6;
-}
-
 @media (min-width: 800px) {
   body {
     font-size: $base-font-size;
