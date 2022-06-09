@@ -5,39 +5,8 @@ lang: en
 ---
 <section>
   <p>👨‍💻 Software Engineer in Tokyo</p>
-  <p>📱 Studied React & React Native with <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a></p>
-  <p>🚀 Studied Ruby, Ruby on Rails and JavaScript with <a href="https://launchschool.com">Launchschool</a></p>
-  <p>🗼 Taught English in public schools in Tokyo and Chiba</p>
-  <p>🇯🇵 Intermediate Japanese language</p>
-</section>
-
-<section>
-  <h2>Project</h2>
-  <ul>
-    {% assign projects = site.projects | where:"lang", page.lang %}
-    {% for project in projects reversed %}
-      <li class="project-list-item">
-        {% if project.platform == 'web' %}
-          <figure class="laptop-background">
-        {% else %}
-          <figure class="smartphone-background">
-        {% endif %}
-          <a class="image-link" href="{{ project.url | prepend: site.baseurl }}">
-            <img src="/images/{{ project.img }}.png">
-          </a>
-
-          <figcaption>
-            <h2>
-              <a href="{{ project.url | prepend: site.baseurl }}">
-                {{ project.title }}
-              </a>
-            </h2>
-          </figcaption>
-        </figure>
-        <div class="project-summary">
-          {{ project.summary }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+  <p>👷 Creator and Developer of <a href="/projects/emoji-flashcards/">Emoji Flashcards</a>, a web application to provide free language teaching materials for various languages</p>
+  <p>📱 Studied web development with <a href="https://launchschool.com">Launchschool</a> and <a href="https://www.udacity.com/course/react-nanodegree--nd019">Udacity</a></p>
+  <p>🗼 Previously taught English in schools in Tokyo and Chiba</p>
+  <p>🇯🇵 Speaks intermediate level Japanese language</p>
 </section>
