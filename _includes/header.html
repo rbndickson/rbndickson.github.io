@@ -21,12 +21,8 @@
 <header class="main-header">
   <div class="language-selector small-font">
     <ul>
-      {% if page.lang == 'ja' %}
-        <li><a lang="en" class="japanese-font" href={{ en_href }}>English</a></li>
-      {% else %}
-        <li><a lang="en" href={{ en_href }}>English</a></li>
-      {% endif %}
-      <li><a lang="ja" href={{ ja_href }}>日本語</a></li>
+      <li class="english-font"><a lang="en" href={{ en_href }}>English</a></li>
+      <li class="japanese-font"><a lang="ja" href={{ ja_href }}>日本語</a></li>
     </ul>
   </div>
   <h1>

@@ -6,7 +6,8 @@ body {
   color: $main-text-color;
 }
 
-:lang(en) {
+:lang(en),
+.english-font {
   font-family: $base-font-family;
 }
 
