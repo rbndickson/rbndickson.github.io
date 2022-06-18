@@ -20,12 +20,12 @@ Resources are available in English, German, Japanese, Korean and Spanish. User a
 
 👤 Admin and Editor user roles  
 🌎 English, German, Japanese, Korean and Spanish materials  
-🖨 Printable flashcards  
+🖨 Printable flashcards, worksheets and games  
 🗂 Flashcards grouped by categories and collections  
 📘 Picture dictionaries  
 ❓ Vocabulary quiz  
 📱 Responsive design  
-📝 Tested with RSpec  
+📝 Tested with RSpec and Cypress  
 
 ---
 
@@ -33,10 +33,10 @@ Resources are available in English, German, Japanese, Korean and Spanish. User a
 
 - Ruby on Rails
 - Vue.js
+- Svelte
 - PostgreSQL
 - RSpec
 - Cypress
-- Slim
 - SASS
 - PureCSS
 - Semantic UI

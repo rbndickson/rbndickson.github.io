@@ -14,14 +14,13 @@ platform: web
 ---
 絵文字から印刷を出来るフラッシュカードと教材を作るWebアプリケーションです。
 
-フラッシュカードと教材は英語・日本語・スペイン語・ドイツ語・韓国語で作ることが出来ます。
+英語・日本語・スペイン語・ドイツ語・韓国語
+のフラッシュカード、教材、アクティビティ用のプリントを作ることができます。
 
-絵文字はオープンソースの「[Twemoji](https://github.com/twitter/twemoji)」です。
+絵文字はオープンソースの「[Twemoji](https://github.com/twitter/twemoji)」を使っています。
 
 ## 機能
 
-🔑 認証  
-👤 ユーザーロファイル  
 👥 Admin・Editorユーザーロール  
 🌎 英語・日本語・ドイツ語・スペイン語・韓国語の語彙  
 🖨 フラッシュカードの印刷  
@@ -29,7 +28,7 @@ platform: web
 📘 ピクチャー・ディクショナリー  
 ❓ フラッシュカードQuiz  
 📱 レスポンシブウェブデザイン  
-📝 RSpecでテスト  
+📝 RSpecとCypressでテスト  
 
 ---
 
@@ -37,10 +36,10 @@ platform: web
 
 - Ruby on Rails
 - Vue.js
+- Svelte
 - PostgreSQL
 - RSpec
 - Cypress
-- Slim
 - SASS
 - PureCSS
 - Semantic UI
