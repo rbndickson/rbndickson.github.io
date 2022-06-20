@@ -2,11 +2,11 @@ hr {
   height: 2px;
   background-image: linear-gradient(
     90deg,
-    $white,
-    $blue2,
-    $violet,
-    $blue2,
-    $white
+    $gradient-line-outer-color,
+    $gradient-line-inner-color,
+    $gradient-line-center-color,
+    $gradient-line-inner-color,
+    $gradient-line-outer-color
   );
   border: 0;
 }
