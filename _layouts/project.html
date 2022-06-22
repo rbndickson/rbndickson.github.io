@@ -2,27 +2,29 @@
 layout: default
 ---
 <article>
-  {% if page.platform == 'web' %}
-    <figure class="laptop-background">
-  {% else %}
-    <figure class="smartphone-background">
-  {% endif %}
-    <img src="/images/{{ page.img }}.png">
-
-    <figcaption>
-      <h2>{{ page.title }}</h2>
-    </figcaption>
-  </figure>
-
-  <ul class="site-links">
-    {% if page.demo %}
-      <li><a class="button" href="{{ page.demo }}" target="_blank">{{ site.t[page.lang].open_site }}</a></li>
+  <section>
+    {% if page.platform == 'web' %}
+      <figure class="laptop-background">
+    {% else %}
+      <figure class="smartphone-background">
     {% endif %}
+      <img src="/images/{{ page.img }}.png">
 
-    {% if page.repository %}
-      <li><a class="button" href="{{ page.repository }}" target="_blank">{{ site.t[page.lang].view_code }}</a></li>
-    {% endif %}
-  </ul>
+      <figcaption>
+        <h2>{{ page.title }}</h2>
+      </figcaption>
+    </figure>
+
+    <ul class="site-links">
+      {% if page.demo %}
+        <li><a class="button" href="{{ page.demo }}" target="_blank">{{ site.t[page.lang].open_site }}</a></li>
+      {% endif %}
+
+      {% if page.repository %}
+        <li><a class="button" href="{{ page.repository }}" target="_blank">{{ site.t[page.lang].view_code }}</a></li>
+      {% endif %}
+    </ul>
+  </section>
 
   <section class="project-content">
     {{ content }}
