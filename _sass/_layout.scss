@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 //
@@ -40,7 +40,7 @@ section {
   margin-top: 40px;
 
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 }
 
@@ -60,6 +60,10 @@ footer {
 @media (min-width: 600px) {
   h1 {
     margin: 10px 0 0 0;
+  }
+
+  .main-container {
+    padding: 0 10px;
   }
 
   main {
