@@ -1,21 +1,18 @@
-$white:                 #fff;
-$blue1:                 #4fbffc;
-$blue2:                 #68d5fd;
-$blue-black:            #2f4858;
-$weak-blue-black:       #c0c8cc;
-$violet:                #ee82ee;
+$white:                 #FFFFFF;
+$blue:                  #0071FF;
+$black:                 #0a041b;
+$grey:                  #707070;
+$pink:                  #FF1DED;
 
 $body-background-color: $white;
-$main-text-color:       $blue-black;
-$title-text-color:      $blue-black;
-$link-color:            $blue1;
-$link-hover-color:      $violet;
-
-$highlight-color-1:     $blue1;
+$main-text-color:       $black;
+$title-text-color:      $black;
+$link-color:            $blue;
+$link-hover-color:      $pink;
 
 $gradient-line-outer-color:  $white;
-$gradient-line-inner-color:  $blue2;
-$gradient-line-center-color: $violet;
+$gradient-line-inner-color:  $blue;
+$gradient-line-center-color: $pink;
 
 $base-font-family:      "Open Sans", Arial, sans-serif;
 $heading-font-family:   Raleway, Arial, sans-serif;

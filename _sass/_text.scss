@@ -42,7 +42,7 @@ h1 {
     font-size: 28px;
     font-weight: 500;
     cursor: pointer;
-    color: $main-text-color;
+    color: $title-text-color;
     background: none;
   }
 }
@@ -61,7 +61,7 @@ h2 {
 }
 
 .light-font {
-  color: $weak-blue-black;
+  color: $grey;
 }
 
 a {
