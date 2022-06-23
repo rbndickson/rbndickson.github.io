@@ -4,5 +4,7 @@ Personal website built with Jekyll.
 
 ## Running in development
 
-`bundle install`
-`jekyll serve`
+```bash
+bundle install
+jekyll serve
+```
