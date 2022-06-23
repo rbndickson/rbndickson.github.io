@@ -18,12 +18,8 @@ collections:
 
 t:
   en:
-    projects: "Projects"
     open_site: "Open Site"
     view_code: "View Code"
-    code: "code"
   ja:
-    projects: "プロジェクト"
     open_site: "サイトを開く"
     view_code: "コードを閲覧"
-    code: "コード"
