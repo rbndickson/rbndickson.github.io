@@ -4,20 +4,15 @@
 {% include head.html %}
 
 <body>
-  <div class="mobile-top-bar"></div>
   <div class="main-container">
     {% include header.html %}
     <main>
       {{ content }}
     </main>
     <footer lang='en' class="small-font light-font">
-      {% if page.lang == 'en' %}
-        Made with
-        <a href="https://jekyllrb.com/">Jekyll</a> |
-      {% else %}
-      <a href="https://jekyllrb.com/">Jekyll</a>で作りました |
-      {% endif %}
-      <a href="https://github.com/rbndickson/rbndickson.github.io">{{ site.t[page.lang].code }}</a>
+      Made with
+      <a href="https://jekyllrb.com/">Jekyll</a> |
+      <a href="https://github.com/rbndickson/rbndickson.github.io">code</a>
     </footer>
   </div>
 </body>

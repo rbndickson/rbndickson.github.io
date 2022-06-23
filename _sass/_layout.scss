@@ -9,13 +9,8 @@ body {
   background: $body-background-color;
 }
 
-.mobile-top-bar {
-  height: 4px;
-  background-image: linear-gradient($highlight-color-1, $highlight-color-2);
-}
-
 .main-container {
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 //
@@ -38,17 +33,14 @@ body {
 }
 
 //
-// Navigation
+// Main
 //
 
-nav ul {
-  width: 100%;
-  margin-bottom: 20px;
+section {
+  margin-top: 40px;
 
-  li {
-    display: inline-block;
-    padding: 15px 20px 15px 0;
-    font-size: 18px;
+  h2 {
+    margin-bottom: 5px;
   }
 }
 
@@ -66,12 +58,12 @@ footer {
 //
 
 @media (min-width: 600px) {
-  .mobile-top-bar {
-    display: none;
-  }
-
   h1 {
     margin: 10px 0 0 0;
+  }
+
+  .main-container {
+    padding: 0 10px;
   }
 
   main {

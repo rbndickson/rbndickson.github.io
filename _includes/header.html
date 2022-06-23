@@ -1,14 +1,3 @@
-{% assign about_class = '' %}
-{% assign project_class = '' %}
-
-{% if page.ref == 'index' %}
-  {% assign project_class = 'current-page' %}
-{% endif %}
-
-{% if page.ref == 'about' %}
-  {% assign about_class = 'current-page' %}
-{% endif %}
-
 {% assign en_href = site.url | append: page.url %}
 {% assign ja_href = site.url | append: page.url %}
 
@@ -32,19 +21,15 @@
 <header class="main-header">
   <div class="language-selector small-font">
     <ul>
-      {% if page.lang == 'ja' %}
-        <li><a lang="en" class="japanese-font" href={{ en_href }}>English</a></li>
-      {% else %}
-        <li><a lang="en" href={{ en_href }}>English</a></li>
-      {% endif %}
-      <li><a lang="ja" href={{ ja_href }}>日本語</a></li>
+      <li class="english-font"><a lang="en" href={{ en_href }}>English</a></li>
+      <li class="japanese-font"><a lang="ja" href={{ ja_href }}>日本語</a></li>
     </ul>
   </div>
   <h1>
     <a lang="en" class="header-text" href={{home_href}}>
       {% if page.lang == 'ja' %}
         <ruby>
-          <rb>Robin Dickson</rb>
+          <rb class="heading-font">Robin Dickson</rb>
           <rt lang="ja" class="light-font">ロビン ディクソン</rt>
         </ruby>
       {% else %}  
@@ -52,17 +37,4 @@
       {% endif %}
     </a>
   </h1>
-  <nav>
-    <ul>
-      <li>
-        <a href={{ site.url | append: site.index[page.lang] }} class={{project_class}}>{{ site.t[page.lang].projects }}</a>
-      </li>
-      <li>
-        <a href={{ site.url | append: site.about[page.lang] }} class={{about_class}}>{{ site.t[page.lang].about }}</a>
-      </li>
-      <li>
-        <a href="/rps" title="Rock, paper, scissors" target="_blank">&#9996;&#65039;</a>
-      </li>
-    </ul>
-  </nav>
 </header>

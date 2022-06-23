@@ -9,34 +9,34 @@ date: 2017-11-01 10:10:10 +0100
 summary: Web Application to Create Teaching Resources from Emoji
 technologies:
   - Ruby on Rails
-  - React
-  - Redux
+  - Vue.js
 platform: web
 ---
 An ongoing project to create language teaching and learning resources from emoji using the open source [Twemoji](https://github.com/twitter/twemoji). 
 
-Resources are available in English, German, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
+Resources are available in English, German, Japanese, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
 
 ## Features:
 
 👤 Admin and Editor user roles  
-🌎 English, German, Korean and Spanish materials  
-🖨 Printable flashcards  
+🌎 English, German, Japanese, Korean and Spanish materials  
+🖨 Printable flashcards, worksheets and games  
 🗂 Flashcards grouped by categories and collections  
 📘 Picture dictionaries  
 ❓ Vocabulary quiz  
 📱 Responsive design  
-📝 Tested with RSpec  
+📝 Tested with RSpec and Cypress  
 
 ---
 
 ## Built With:
 
 - Ruby on Rails
-- RSpec
-- React
-- Slim
+- Vue.js
+- Svelte
 - PostgreSQL
+- RSpec
+- Cypress
 - SASS
 - PureCSS
 - Semantic UI

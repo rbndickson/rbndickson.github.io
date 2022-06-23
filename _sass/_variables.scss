@@ -1,32 +1,28 @@
-$white:                 #fff;
-$blue1:                 #4fbffc;
-$blue2:                 #68d5fd;
-$blue3:                 #7de4fd;
-$blue-black:            #2f4858;
-$weak-blue-black:       #c0c8cc;
-$very-light-blue:       #e1eff6;
-$violet:                #ee82ee;
+$white:                 #FFFFFF;
+$blue:                  #0071FF;
+$black:                 #0a041b;
+$grey:                  #707070;
+$pink:                  #FF1DED;
 
 $body-background-color: $white;
-$main-text-color:       $blue-black;
-$title-text-color:      $blue-black;
-$link-color:            $blue1;
-$link-hover-color:      $violet;
+$main-text-color:       $black;
+$title-text-color:      $black;
+$link-color:            $blue;
+$link-hover-color:      $pink;
 
-$highlight-color-1:     $blue1;
-$highlight-color-2:     $blue3;
+$gradient-line-outer-color:  $white;
+$gradient-line-inner-color:  $blue;
+$gradient-line-center-color: $pink;
 
 $base-font-family:      "Open Sans", Arial, sans-serif;
 $heading-font-family:   Raleway, Arial, sans-serif;
-$mono-font-family:      Monaco, Consolas, "Lucida Console", monospace;
 
 $japanese-font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
   "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic", "メイリオ", Meiryo,
   "ＭＳ ゴシック", "MS Gothic", HiraKakuProN-W3, "TakaoExゴシック",
   TakaoExGothic, "MotoyaLCedar", "Droid Sans Japanese", sans-serif;
 
-
 $base-font-size:        16px;
-$small-font-size:       $base-font-size * 0.786;
+$small-font-size:       $base-font-size * 0.8;
 $base-font-weight:      400;
 $base-line-height:      1.6;

@@ -1,17 +1,13 @@
-title: by Robin Dickson
+title: Robin Dickson
 email: robindickson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Robin Dickson's projects and suchlike
+  Robin Dickson's personal site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rbndickson.github.io" # the base hostname & protocol for your site
 
 index:
   en: /
   ja: /ja/
-
-about:
-  en: /about/
-  ja: /ja/about/
 
 markdown: kramdown
 
@@ -22,14 +18,8 @@ collections:
 
 t:
   en:
-    projects: "Projects"
-    about: "About"
     open_site: "Open Site"
     view_code: "View Code"
-    code: "code"
   ja:
-    projects: "プロジェクト"
-    about: "情報"
     open_site: "サイトを開く"
     view_code: "コードを閲覧"
-    code: "コード"
