@@ -6,5 +6,5 @@ Personal website built with Jekyll.
 
 ```bash
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
