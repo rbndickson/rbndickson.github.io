@@ -19,7 +19,7 @@ Resources are available in English, German, Japanese, Korean and Spanish. User a
 ## Features:
 
 👤 Admin and Editor user roles  
-🌎 English, German, Japanese, Korean and Spanish materials  
+🌎 English, German, Italian, Japanese, Korean and Spanish materials  
 🖨 Printable flashcards, worksheets and games  
 🗂 Flashcards grouped by categories and collections  
 📘 Picture dictionaries  
