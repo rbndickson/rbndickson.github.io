@@ -10,7 +10,14 @@ body {
 }
 
 .main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   padding: 0 30px;
+}
+
+main {
+  flex: 1;
 }
 
 //
