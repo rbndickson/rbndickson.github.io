@@ -1,18 +1,26 @@
+// Summer colors
+// Inspiration - Natsume no Yuujinchou
+
+$summer-green: #499D87;
+$summer-light-green: #7AC441;
+$summer-pale-blue: #EDF9FF;
+
+// Original colors
 $white:                 #FFFFFF;
 $blue:                  #0071FF;
 $black:                 #0a041b;
 $grey:                  #707070;
 $pink:                  #FF1DED;
 
-$body-background-color: $white;
+$body-background-color: $summer-pale-blue;
 $main-text-color:       $black;
 $title-text-color:      $black;
-$link-color:            $blue;
-$link-hover-color:      $pink;
+$link-color:            $summer-green;
+$link-hover-color:      $summer-light-green;
 
-$gradient-line-outer-color:  $white;
-$gradient-line-inner-color:  $blue;
-$gradient-line-center-color: $pink;
+$gradient-line-outer-color:  $summer-pale-blue;
+$gradient-line-inner-color:  $summer-green;
+$gradient-line-center-color: $summer-light-green;
 
 $base-font-family:      "Open Sans", Arial, sans-serif;
 $heading-font-family:   Raleway, Arial, sans-serif;
