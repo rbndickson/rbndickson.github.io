@@ -19,7 +19,7 @@ platform: web
 
 絵文字はオープンソースの「[Twemoji](https://github.com/twitter/twemoji)」を使っています。
 
-## 機能
+### 機能
 
 👥 Admin・Editorユーザーロール  
 🌎 英語・日本語・ドイツ語・イタリア語・スペイン語・韓国語の語彙  
@@ -32,7 +32,7 @@ platform: web
 
 ---
 
-## 利用技術
+### 利用技術
 
 - Ruby on Rails
 - Vue.js

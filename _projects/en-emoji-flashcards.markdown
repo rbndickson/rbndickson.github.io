@@ -16,7 +16,7 @@ An ongoing project to create language teaching and learning resources from emoji
 
 Resources are available in English, German, Japanese, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
 
-## Features:
+### Features:
 
 👤 Admin and Editor user roles  
 🌎 English, German, Italian, Japanese, Korean and Spanish materials  
@@ -29,7 +29,7 @@ Resources are available in English, German, Japanese, Korean and Spanish. User a
 
 ---
 
-## Built With:
+### Built With:
 
 - Ruby on Rails
 - Vue.js

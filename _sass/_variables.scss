@@ -22,7 +22,11 @@ $japanese-font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
   "ＭＳ ゴシック", "MS Gothic", HiraKakuProN-W3, "TakaoExゴシック",
   TakaoExGothic, "MotoyaLCedar", "Droid Sans Japanese", sans-serif;
 
-$base-font-size:        18px;
-$small-font-size:       $base-font-size * 0.8;
+$base-font-size:        1.20rem;
+$heading-font-size-l:   2.00rem;
+$heading-font-size-m:   1.50rem;
+$heading-font-size-s:   1.25rem;
+$small-font-size:       1.00rem;
 $base-font-weight:      400;
+$heading-font-weight:   500;
 $base-line-height:      1.6;

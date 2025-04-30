@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: $base-font-weight;
+  font-weight: $heading-font-weight;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
   a.header-text:visited,
   a.header-text:hover {
     font-family: $heading-font-family;
-    font-size: 28px;
+    font-size: $heading-font-size-l;
     font-weight: 500;
     cursor: pointer;
     color: $title-text-color;
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.23rem;
+  font-size: $heading-font-size-m;
 }
 
 .small-font {
