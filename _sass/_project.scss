@@ -11,8 +11,8 @@
 a.button {
   border-radius: 20px;
   padding: 3px 8px;
-  background-color: $link-color;
-  background-image: linear-gradient($link-hover-color, $link-hover-color);
+  background-color: $button-color;
+  background-image: linear-gradient($button-color 0%, $button-color 80%, $button-hover-color 100%);
   background-size: 100% 0;
   background-position: bottom;
   background-repeat: no-repeat;
