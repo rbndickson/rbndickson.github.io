@@ -3,7 +3,7 @@
 //
 
 body {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   overflow-y: scroll;
   background: $body-background-color;
@@ -12,8 +12,21 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding: 0 30px;
+  min-height: calc(100vh - 100px);
+  padding: 20px;
+  border-radius: 25px;
+  background:
+    linear-gradient(to bottom,
+      $body-background-color 0%,
+      $main-background-color 3%,
+      $main-background-color 97%,
+      $body-background-color 100%),
+    linear-gradient(to right,
+      $body-background-color 0%,
+      $main-background-color 3%,
+      $main-background-color 97%,
+      $body-background-color 100%);
+  background-blend-mode: darken;
 }
 
 main {
@@ -70,7 +83,8 @@ footer {
   }
 
   .main-container {
-    padding: 0 10px;
+    padding: 25px 50px;
+    border-radius: 50px;
   }
 
   main {
