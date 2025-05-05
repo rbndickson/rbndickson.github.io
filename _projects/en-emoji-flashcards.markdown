@@ -12,9 +12,12 @@ technologies:
   - Vue.js
 platform: web
 ---
-An ongoing project to create language teaching and learning resources from emoji using the open source [Twemoji](https://github.com/twitter/twemoji). 
 
-Resources are available in English, German, Japanese, Korean and Spanish. User authentication and roles allow for different editors to edit the vocabulary for each language.
+An ongoing project to create language teaching and learning resources, including printable flashcards, printable worksheets and online activities.
+
+Resources are available in English, German, Italian, Japanese, Korean and Spanish.
+
+The images for vocabulary are both emoji, and images adapted from emoji, using the open source [Twemoji](https://github.com/jdecked/twemoji).
 
 ### Features:
 
