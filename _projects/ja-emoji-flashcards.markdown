@@ -1,7 +1,7 @@
 ---
 layout: project
 lang: ja
-title: 絵文字フラッシュカード
+title: Emoji Flashcards
 slug: ja-emoji-flashcards
 img: emoji-flashcards
 demo: https://emojiflashcards.com
